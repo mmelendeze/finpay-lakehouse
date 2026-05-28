@@ -1,0 +1,25 @@
+resources:
+  jobs:
+    finpay_ingestion_job:
+      name: "finpay_ingestion_job"
+      email_notifications:
+        on_failure:
+          - mmelende@hotmail.com
+      parameters:
+        - name: catalog
+          default: ${var.catalog}
+        - name: schema
+          default: ${var.schema}
+        - name: schema_event_log
+          default: ${var.schema_event_log}
+
+      tasks:
+        - task_key: Paso1_ETL_Pipeline
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.finpay_etl_pipeline.id}
+            full_refresh: false
+          max_retries: 1
+          min_retry_interval_millis: 900000
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED

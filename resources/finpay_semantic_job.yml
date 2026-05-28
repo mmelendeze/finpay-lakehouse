@@ -1,0 +1,25 @@
+resources:
+  jobs:
+    finpay_semantic_job:
+      name: "finpay_semantic_job"
+
+      trigger:
+        pause_status: UNPAUSED
+        periodic:
+          interval: 1
+          unit: DAYS
+
+      tasks:
+        - task_key: Paso1_Semantic_Model
+
+          sql_task:
+            file:
+              path: ${workspace.file_path}/../sql/refresh_materialized_views.sql
+            warehouse_id: ${var.sql_warehouse_id}
+
+            parameters:
+              catalog: ${var.catalog}
+              schema_gold: ${var.schema_gold}
+
+      queue:
+        enabled: true
