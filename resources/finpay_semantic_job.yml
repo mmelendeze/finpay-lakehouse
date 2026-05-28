@@ -14,7 +14,7 @@ resources:
 
           sql_task:
             file:
-              path: ${workspace.file_path}/../sql/refresh_materialized_views.sql
+              path: ${workspace.file_path}/sql/02_refresh_materialized_views.sql
             warehouse_id: ${var.sql_warehouse_id}
 
             parameters:

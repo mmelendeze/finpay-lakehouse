@@ -1,0 +1,370 @@
+{
+  "datasets": [
+    {
+      "catalog": "fintech_finpay",
+      "displayName": "Registros Exitosos por Capa",
+      "name": "ds_successful_by_layer",
+      "queryLines": [
+        "SELECT CASE WHEN origin.flow_name LIKE '%bronze%' THEN 'Bronze' WHEN origin.flow_name LIKE '%silver%' OR origin.flow_name LIKE '%stg_%' THEN 'Silver' WHEN origin.flow_name LIKE '%gold%' THEN 'Gold' ELSE 'Other' END AS layer, SUM(BIGINT(details:flow_progress.metrics.num_output_rows)) AS successful_records, DATE(timestamp) AS processing_date FROM fintech_finpay.observability.event_log WHERE event_type = 'flow_progress' AND details:flow_progress.status = 'COMPLETED' GROUP BY layer, DATE(timestamp) ORDER BY processing_date DESC"
+      ],
+      "schema": "observability"
+    },
+    {
+      "catalog": "fintech_finpay",
+      "displayName": "Rechazados por Expectativa",
+      "name": "ds_failed_by_expectation",
+      "queryLines": [
+        "SELECT origin.flow_name AS table_name, CASE WHEN origin.flow_name LIKE '%bronze%' THEN 'Bronze' WHEN origin.flow_name LIKE '%silver%' OR origin.flow_name LIKE '%stg_%' THEN 'Silver' WHEN origin.flow_name LIKE '%gold%' THEN 'Gold' ELSE 'Other' END AS layer, exp.name AS expectation_name, SUM(BIGINT(exp.failed_records)) AS failed_records, SUM(BIGINT(exp.passed_records)) AS passed_records, DATE(timestamp) AS processing_date FROM fintech_finpay.observability.event_log LATERAL VIEW OUTER EXPLODE(from_json(details:flow_progress.data_quality.expectations, 'array<struct<name:string,passed_records:bigint,failed_records:bigint>>')) AS exp WHERE event_type = 'flow_progress' AND details:flow_progress.data_quality IS NOT NULL GROUP BY table_name, layer, exp.name, DATE(timestamp) ORDER BY failed_records DESC"
+      ],
+      "schema": "observability"
+    },
+    {
+      "catalog": "fintech_finpay",
+      "displayName": "Tendencia Diaria",
+      "name": "ds_daily_trend",
+      "queryLines": [
+        "SELECT DATE(timestamp) AS processing_date, CASE WHEN origin.flow_name LIKE '%bronze%' THEN 'Bronze' WHEN origin.flow_name LIKE '%silver%' OR origin.flow_name LIKE '%stg_%' THEN 'Silver' WHEN origin.flow_name LIKE '%gold%' THEN 'Gold' ELSE 'Other' END AS layer, SUM(BIGINT(details:flow_progress.metrics.num_input_rows)) AS input_rows, SUM(BIGINT(details:flow_progress.metrics.num_output_rows)) AS output_rows, SUM(BIGINT(details:flow_progress.data_quality.dropped_records)) AS dropped_records FROM fintech_finpay.observability.event_log WHERE event_type = 'flow_progress' AND details:flow_progress.status = 'COMPLETED' GROUP BY DATE(timestamp), layer ORDER BY processing_date ASC"
+      ],
+      "schema": "observability"
+    },
+    {
+      "catalog": "fintech_finpay",
+      "displayName": "Tasa de Error por Tabla",
+      "name": "ds_error_rate_by_table",
+      "queryLines": [
+        "SELECT origin.flow_name AS table_name, CASE WHEN origin.flow_name LIKE '%bronze%' THEN 'Bronze' WHEN origin.flow_name LIKE '%silver%' OR origin.flow_name LIKE '%stg_%' THEN 'Silver' WHEN origin.flow_name LIKE '%gold%' THEN 'Gold' ELSE 'Other' END AS layer, SUM(BIGINT(details:flow_progress.metrics.num_input_rows)) AS total_input, SUM(BIGINT(details:flow_progress.data_quality.dropped_records)) AS total_dropped, ROUND(SUM(BIGINT(details:flow_progress.data_quality.dropped_records)) * 100.0 / NULLIF(SUM(BIGINT(details:flow_progress.metrics.num_input_rows)), 0), 2) AS error_rate_pct FROM fintech_finpay.observability.event_log WHERE event_type = 'flow_progress' AND details:flow_progress.status = 'COMPLETED' GROUP BY origin.flow_name, layer ORDER BY error_rate_pct DESC"
+      ],
+      "schema": "observability"
+    }
+  ],
+  "pages": [
+    {
+      "displayName": "Pipeline Observability",
+      "layout": [
+        {
+          "position": {
+            "height": 3,
+            "width": 2,
+            "x": 0,
+            "y": 0
+          },
+          "widget": {
+            "name": "counter_successful",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_successful_by_layer",
+                  "disaggregated": false,
+                  "fields": [
+                    {
+                      "expression": "SUM(`successful_records`)",
+                      "name": "successful_records"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "encodings": {
+                "value": {
+                  "displayName": "Registros Exitosos",
+                  "fieldName": "successful_records"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Total Registros Exitosos"
+              },
+              "version": 2,
+              "widgetType": "counter"
+            }
+          }
+        },
+        {
+          "position": {
+            "height": 3,
+            "width": 2,
+            "x": 2,
+            "y": 0
+          },
+          "widget": {
+            "name": "counter_failed",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_failed_by_expectation",
+                  "disaggregated": false,
+                  "fields": [
+                    {
+                      "expression": "SUM(`failed_records`)",
+                      "name": "failed_records"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "encodings": {
+                "value": {
+                  "displayName": "Registros Rechazados",
+                  "fieldName": "failed_records"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Total Registros Rechazados"
+              },
+              "version": 2,
+              "widgetType": "counter"
+            }
+          }
+        },
+        {
+          "position": {
+            "height": 6,
+            "width": 4,
+            "x": 0,
+            "y": 3
+          },
+          "widget": {
+            "name": "bar_successful_by_layer",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_successful_by_layer",
+                  "disaggregated": false,
+                  "fields": [
+                    {
+                      "expression": "`layer`",
+                      "name": "layer"
+                    },
+                    {
+                      "expression": "SUM(`successful_records`)",
+                      "name": "sum(successful_records)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "encodings": {
+                "x": {
+                  "displayName": "Capa",
+                  "fieldName": "layer",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "displayName": "Registros Exitosos",
+                  "fieldName": "sum(successful_records)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Registros Exitosos por Capa"
+              },
+              "version": 3,
+              "widgetType": "bar"
+            }
+          }
+        },
+        {
+          "position": {
+            "height": 6,
+            "width": 4,
+            "x": 4,
+            "y": 3
+          },
+          "widget": {
+            "name": "bar_failed_by_expectation",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_failed_by_expectation",
+                  "disaggregated": false,
+                  "fields": [
+                    {
+                      "expression": "`expectation_name`",
+                      "name": "expectation_name"
+                    },
+                    {
+                      "expression": "SUM(`failed_records`)",
+                      "name": "sum(failed_records)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "encodings": {
+                "x": {
+                  "displayName": "Expectativa",
+                  "fieldName": "expectation_name",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "displayName": "Registros Rechazados",
+                  "fieldName": "sum(failed_records)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Registros Rechazados por Expectativa"
+              },
+              "version": 3,
+              "widgetType": "bar"
+            }
+          }
+        },
+        {
+          "position": {
+            "height": 6,
+            "width": 4,
+            "x": 0,
+            "y": 9
+          },
+          "widget": {
+            "name": "line_daily_trend",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_error_rate_by_table",
+                  "disaggregated": true,
+                  "fields": [
+                    {
+                      "expression": "`table_name`",
+                      "name": "table_name"
+                    },
+                    {
+                      "expression": "`error_rate_pct`",
+                      "name": "error_rate_pct"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "encodings": {
+                "x": {
+                  "displayName": "Tabla",
+                  "fieldName": "table_name",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "displayName": "Tasa de Error (%)",
+                  "fieldName": "error_rate_pct",
+                  "format": {
+                    "abbreviation": "none",
+                    "decimalPlaces": {
+                      "places": 2,
+                      "type": "max"
+                    },
+                    "type": "number-plain"
+                  },
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Tasa de Error por Tabla"
+              },
+              "version": 3,
+              "widgetType": "bar"
+            }
+          }
+        },
+        {
+          "position": {
+            "height": 6,
+            "width": 4,
+            "x": 4,
+            "y": 9
+          },
+          "widget": {
+            "name": "bar_error_rate",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_daily_trend",
+                  "disaggregated": false,
+                  "fields": [
+                    {
+                      "expression": "`layer`",
+                      "name": "layer"
+                    },
+                    {
+                      "expression": "`processing_date`",
+                      "name": "processing_date"
+                    },
+                    {
+                      "expression": "SUM(`output_rows`)",
+                      "name": "sum(output_rows)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "encodings": {
+                "color": {
+                  "displayName": "Capa",
+                  "fieldName": "layer",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "x": {
+                  "displayName": "Fecha",
+                  "fieldName": "processing_date",
+                  "scale": {
+                    "type": "temporal"
+                  }
+                },
+                "y": {
+                  "displayName": "Registros de Salida",
+                  "fieldName": "sum(output_rows)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Tendencia Diaria de Registros de Salida"
+              },
+              "version": 3,
+              "widgetType": "line"
+            }
+          }
+        }
+      ],
+      "name": "pipeline_observability",
+      "pageType": "PAGE_TYPE_CANVAS"
+    }
+  ],
+  "uiSettings": {
+    "applyModeEnabled": false,
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    }
+  }
+}

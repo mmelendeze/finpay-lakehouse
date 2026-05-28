@@ -7,7 +7,7 @@ resources:
       catalog: ${var.catalog}
       schema: ${var.schema}
       serverless: true
-      root_path: "${workspace.file_path}/../src"
+      root_path: "${workspace.file_path}/src"
       libraries:
         - glob:
             include: ../src/**
@@ -15,8 +15,3 @@ resources:
         name: event_log
         schema: ${var.schema_event_log}
         catalog: ${var.catalog}
-      environment:
-        dependencies:
-          # We include every dependency defined by pyproject.toml by defining an editable environment
-          # that points to the folder where pyproject.toml is deployed.
-          - --editable ${workspace.file_path}

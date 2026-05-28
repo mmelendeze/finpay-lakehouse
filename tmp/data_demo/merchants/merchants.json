@@ -1,0 +1,4559 @@
+[
+  {
+    "merchant_id": "MCH-00001",
+    "merchant_name": "Pizza Hut EIRL",
+    "category": "RETAIL",
+    "country": "CL",
+    "affiliation_date": "2021-12-05",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00002",
+    "merchant_name": "USIL EIRL",
+    "category": "Restaurante",
+    "country": "MX",
+    "affiliation_date": "2022-01-07",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00003",
+    "merchant_name": "Zara Peru SAC",
+    "category": "supermercado",
+    "country": "PE",
+    "affiliation_date": "2019-03-19",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00004",
+    "merchant_name": "Oechsle",
+    "category": "Supermercado",
+    "country": "Mexico",
+    "affiliation_date": "20/10/2018",
+    "status": "SUSPENDIDO",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00005",
+    "merchant_name": "Cruz del Sur SA",
+    "category": "farmacia",
+    "country": "CL",
+    "affiliation_date": "2018-09-26",
+    "status": "inactivo",
+    "risk_level": "bajo",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00006",
+    "merchant_name": "KFC Peru Sucursal",
+    "category": "RESTAURANTE",
+    "country": "MX",
+    "affiliation_date": "23/06/2022",
+    "status": "inactivo",
+    "risk_level": "medio",
+    "internal_code": "INT-0006"
+  },
+  {
+    "merchant_id": "MCH-00007",
+    "merchant_name": "USIL Sucursal",
+    "category": "educacion",
+    "country": "MX",
+    "affiliation_date": "2019-01-07",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00008",
+    "merchant_name": "Clinica San Pablo SAC",
+    "category": "transporte",
+    "country": "CO",
+    "affiliation_date": "2020-06-16",
+    "status": "suspended",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00009",
+    "merchant_name": "Clinica Delgado",
+    "category": "tecnologia",
+    "country": "MX",
+    "affiliation_date": "2021-09-10",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00010",
+    "merchant_name": "Universidad de Lima EIRL",
+    "category": "transporte",
+    "country": "CO",
+    "affiliation_date": "29/09/2021",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00011",
+    "merchant_name": "Centrum",
+    "category": "Tecnologia",
+    "country": "AR",
+    "affiliation_date": "2021-10-08",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00012",
+    "merchant_name": "H&M SA",
+    "category": "retail",
+    "country": "MX",
+    "affiliation_date": "2018-03-07",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00013",
+    "merchant_name": "BCP Pagos Sucursal",
+    "category": "farmacia",
+    "country": "MX",
+    "affiliation_date": "2018-09-25",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00014",
+    "merchant_name": "Oltursa Sucursal",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "2018-06-03",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00015",
+    "merchant_name": "",
+    "category": "tecnologia",
+    "country": "AR",
+    "affiliation_date": "20/06/2019",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00016",
+    "merchant_name": "Cineplanet SA",
+    "category": "SUPERMERCADO",
+    "country": "EC",
+    "affiliation_date": "08/07/2022",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00017",
+    "merchant_name": "PUCP SAC",
+    "category": "restaurante",
+    "country": "CO",
+    "affiliation_date": "27/06/2018",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00018",
+    "merchant_name": "Bembos Peru",
+    "category": "transporte",
+    "country": "CL",
+    "affiliation_date": "2019-01-03",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00019",
+    "merchant_name": "UVK Multicines EIRL",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "2018-11-27",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00020",
+    "merchant_name": "Bembos SRL",
+    "category": "tecnologia",
+    "country": "MX",
+    "affiliation_date": "2020-10-05",
+    "status": "SUSPENDIDO",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00021",
+    "merchant_name": "Cassinelli",
+    "category": "tecnologia",
+    "country": "AR",
+    "affiliation_date": "13/10/2021",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00022",
+    "merchant_name": "Ripley EIRL",
+    "category": "tecnologia",
+    "country": "AR",
+    "affiliation_date": "2018-01-09",
+    "status": "INACTIVO",
+    "risk_level": "medio",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00023",
+    "merchant_name": "Cineplanet Sucursal",
+    "category": "Retail",
+    "country": "CL",
+    "affiliation_date": "19/04/2021",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00024",
+    "merchant_name": "Mifarma SAC",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "2022-02-20",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00025",
+    "merchant_name": "Saga Falabella EIRL",
+    "category": "supermercado",
+    "country": "CL",
+    "affiliation_date": "23/02/2021",
+    "status": "inactivo",
+    "risk_level": "medio",
+    "internal_code": "INT-0025"
+  },
+  {
+    "merchant_id": "MCH-00026",
+    "merchant_name": "Clinica Delgado EIRL",
+    "category": "tecnologia",
+    "country": "MX",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00027",
+    "merchant_name": "McDonald's Lima",
+    "category": "Retail",
+    "country": "CO",
+    "affiliation_date": "2022-09-06",
+    "status": "SUSPENDIDO",
+    "risk_level": "bajo",
+    "internal_code": "INT-0027"
+  },
+  {
+    "merchant_id": "MCH-00028",
+    "merchant_name": "Pizza Hut Peru",
+    "category": "restaurante",
+    "country": "CL",
+    "affiliation_date": "11/06/2020",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00029",
+    "merchant_name": "Clinica Delgado Peru",
+    "category": "tecnologia",
+    "country": "PE",
+    "affiliation_date": "26/03/2019",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00030",
+    "merchant_name": "Nike SA",
+    "category": "Supermercado",
+    "country": "PE",
+    "affiliation_date": "2022-04-15",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00031",
+    "merchant_name": "Maestro SAC",
+    "category": "educacion",
+    "country": "PE",
+    "affiliation_date": "2019-07-27",
+    "status": "suspendido",
+    "risk_level": "ALTO",
+    "legacy_id": "LEG-000031"
+  },
+  {
+    "merchant_id": "MCH-00032",
+    "merchant_name": "McDonald's Lima Sucursal",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "19/10/2019",
+    "status": "suspendido",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00033",
+    "merchant_name": "Clinica Ricardo Palma SRL",
+    "category": "tecnologia",
+    "country": "CL",
+    "affiliation_date": "21/09/2022",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00034",
+    "merchant_name": "Primax SRL",
+    "category": "restaurante",
+    "country": "ARG",
+    "affiliation_date": "2019-05-29",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00035",
+    "merchant_name": "Papa John's SA",
+    "category": "salud",
+    "country": "CO",
+    "affiliation_date": "2018-09-21",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00036",
+    "merchant_name": "",
+    "category": "educacion",
+    "country": "PE",
+    "affiliation_date": "",
+    "status": "suspended",
+    "risk_level": " alto"
+  },
+  {
+    "merchant_id": "MCH-00037",
+    "merchant_name": "Clinica San Pablo EIRL",
+    "category": "Farmacia",
+    "country": "CO",
+    "affiliation_date": "2021-10-17",
+    "status": "ACTIVO",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00038",
+    "merchant_name": "Cruz del Sur SA",
+    "category": "moda",
+    "country": "MX",
+    "affiliation_date": "10/12/2021",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00039",
+    "merchant_name": "Mifarma",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "2022-09-27",
+    "status": "activo",
+    "risk_level": "bajo",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00040",
+    "merchant_name": "H&M SA",
+    "category": "farmacia",
+    "country": "PE",
+    "affiliation_date": "29/08/2019",
+    "status": "activo",
+    "risk_level": "bajo ",
+    "last_updated_by": "etl_process"
+  },
+  {
+    "merchant_id": "MCH-00041",
+    "merchant_name": "Zara Peru Sucursal",
+    "category": "educacion",
+    "country": "CO",
+    "affiliation_date": "22/12/2019",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00042",
+    "merchant_name": "Adidas SAC",
+    "category": "tecnologia",
+    "country": "MX",
+    "affiliation_date": "22/09/2018",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00043",
+    "merchant_name": "Steam SA",
+    "category": "Supermercado",
+    "country": "CO",
+    "affiliation_date": "2020-06-08",
+    "status": "SUSPENDIDO",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00044",
+    "merchant_name": "Saga Falabella",
+    "category": "supermercado",
+    "country": "PE",
+    "affiliation_date": "2022-07-20",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00045",
+    "merchant_name": "Plaza Vea SAC",
+    "category": "RESTAURANTE",
+    "country": "PE",
+    "affiliation_date": "2021-08-10",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00046",
+    "merchant_name": "Coolbox Sucursal",
+    "category": "farmacia",
+    "country": "AR",
+    "affiliation_date": "2022-09-05",
+    "status": "inactivo",
+    "risk_level": null,
+    "internal_code": "INT-0046"
+  },
+  {
+    "merchant_id": "MCH-00047",
+    "merchant_name": "Forever 21 Sucursal",
+    "category": "salud",
+    "country": "MX",
+    "affiliation_date": "2021-11-29",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00048",
+    "merchant_name": "PedidosYa SA",
+    "category": "Farmacia",
+    "country": "PE",
+    "affiliation_date": "2020-04-24",
+    "status": "activo",
+    "risk_level": "medio",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00049",
+    "merchant_name": "Plin Afiliados",
+    "category": "RESTAURANTE",
+    "country": "MX",
+    "affiliation_date": "01/04/2020",
+    "status": "inactivo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00050",
+    "merchant_name": "BTL Pharma",
+    "category": "farmacia",
+    "country": "CO",
+    "affiliation_date": "2018-04-09",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00051",
+    "merchant_name": "Universidad de Lima Sucursal",
+    "category": "transporte",
+    "country": "PE",
+    "affiliation_date": "2023-06-19",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00052",
+    "merchant_name": "KFC Peru",
+    "category": "restaurante",
+    "country": "CL",
+    "affiliation_date": "22/06/2023",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00053",
+    "merchant_name": "Clinica Delgado SA",
+    "category": "farmacia",
+    "country": "CO",
+    "affiliation_date": "2020-02-06",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00054",
+    "merchant_name": "Zara Peru",
+    "category": "restaurante",
+    "country": "CL",
+    "affiliation_date": "2019-12-09",
+    "status": "inactivo",
+    "risk_level": "sin clasificar"
+  },
+  {
+    "merchant_id": "MCH-00055",
+    "merchant_name": "Maestro Sucursal",
+    "category": "retail",
+    "country": "ARG",
+    "affiliation_date": "2018-10-02",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00056",
+    "merchant_name": "Pizza Hut EIRL",
+    "category": "retail",
+    "country": "MX",
+    "affiliation_date": "25/08/2022",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00057",
+    "merchant_name": "BCP Pagos EIRL",
+    "category": "educacion",
+    "country": "MX",
+    "affiliation_date": "12/09/2022",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00058",
+    "merchant_name": "",
+    "category": "Tecnologia",
+    "country": "MX",
+    "affiliation_date": "29/03/2023",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00059",
+    "merchant_name": "Adidas Peru",
+    "category": "transporte",
+    "country": "MX",
+    "affiliation_date": "2021-05-20",
+    "status": "inactivo",
+    "risk_level": "medio",
+    "internal_code": "INT-0059"
+  },
+  {
+    "merchant_id": "MCH-00060",
+    "merchant_name": "Oechsle Peru",
+    "category": "transporte",
+    "country": "CO",
+    "affiliation_date": "2018-09-29",
+    "status": "activo",
+    "risk_level": "BAJO"
+  },
+  {
+    "merchant_id": "MCH-00061",
+    "merchant_name": "Spotify SRL",
+    "category": "TECNOLOGIA",
+    "country": "PE",
+    "affiliation_date": "14/11/2018",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00062",
+    "merchant_name": "Papa John's EIRL",
+    "category": "supermercado",
+    "country": "Colombia",
+    "affiliation_date": "2018-08-20",
+    "status": "Activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00063",
+    "merchant_name": "Spotify Sucursal",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "2020-05-26",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00064",
+    "merchant_name": "Plaza Vea EIRL",
+    "category": "salud",
+    "country": "CO",
+    "affiliation_date": "2021-12-11",
+    "status": "suspendido",
+    "risk_level": "bajo",
+    "internal_code": "INT-0064"
+  },
+  {
+    "merchant_id": "MCH-00065",
+    "merchant_name": "Oechsle SAC",
+    "category": "Retail",
+    "country": "MX",
+    "affiliation_date": "03/08/2022",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00066",
+    "merchant_name": "Saga Falabella Peru",
+    "category": "Farmacia",
+    "country": "MX",
+    "affiliation_date": "30/07/2021",
+    "status": "activo",
+    "risk_level": "medio",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00067",
+    "merchant_name": "Starbucks Peru SAC",
+    "category": "SUPERMERCADO",
+    "country": "CO",
+    "affiliation_date": "2018-12-17",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00068",
+    "merchant_name": "Maestro",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "2022-03-04",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00069",
+    "merchant_name": "Netflix Peru EIRL",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "2023-01-23",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00070",
+    "merchant_name": "Wong SA",
+    "category": "transporte",
+    "country": "AR",
+    "affiliation_date": "14/05/2021",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00071",
+    "merchant_name": "Cassinelli SRL",
+    "category": "supermercado",
+    "country": "MX",
+    "affiliation_date": "2021-06-05",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00072",
+    "merchant_name": "Plin Afiliados SRL",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "29/07/2019",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00073",
+    "merchant_name": "Cineplanet SRL",
+    "category": "supermercado",
+    "country": "PE",
+    "affiliation_date": "2018-07-30",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00074",
+    "merchant_name": "Spotify",
+    "category": "salud",
+    "country": "AR",
+    "affiliation_date": "16/05/2019",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00075",
+    "merchant_name": "Forever 21 EIRL",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "2020-02-23",
+    "status": "activo",
+    "risk_level": "sin clasificar"
+  },
+  {
+    "merchant_id": "MCH-00076",
+    "merchant_name": "KFC Peru Sucursal",
+    "category": "farmacia",
+    "country": "CL",
+    "affiliation_date": "17/07/2022",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00077",
+    "merchant_name": "Domino's SA",
+    "category": "entretenimiento",
+    "country": "MX",
+    "affiliation_date": "2023-01-12",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00078",
+    "merchant_name": "Boticas Arcangel Sucursal",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "2021-10-20",
+    "status": "inactivo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00079",
+    "merchant_name": "Latam Airlines",
+    "category": "RESTAURANTE",
+    "country": "Chile",
+    "affiliation_date": "18/12/2018",
+    "status": "activo",
+    "risk_level": "bajo",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00080",
+    "merchant_name": "Plaza Vea EIRL",
+    "category": "educacion",
+    "country": "CO",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00081",
+    "merchant_name": "Centrum SRL",
+    "category": "retail",
+    "country": "ARG",
+    "affiliation_date": "2020-12-06",
+    "status": "activo",
+    "risk_level": " alto"
+  },
+  {
+    "merchant_id": "MCH-00082",
+    "merchant_name": "Bembos SA",
+    "category": "educacion",
+    "country": "CO",
+    "affiliation_date": "2021-03-16",
+    "status": "inactivo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00083",
+    "merchant_name": "Epic Games SRL",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "2020-07-14",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00084",
+    "merchant_name": "Pizza Hut SA",
+    "category": "farmacia",
+    "country": "PE",
+    "affiliation_date": "2019-12-13",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00085",
+    "merchant_name": "Tambo+",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "2018-01-01",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00086",
+    "merchant_name": "Primax Peru",
+    "category": "restaurante",
+    "country": "CO",
+    "affiliation_date": "2018-10-17",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00087",
+    "merchant_name": "Saga Falabella EIRL",
+    "category": "tecnologia",
+    "country": "Peru",
+    "affiliation_date": "2020-06-14",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00088",
+    "merchant_name": "Metro Peru",
+    "category": "tecnologia",
+    "country": "CL",
+    "affiliation_date": "2022-12-07",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00089",
+    "merchant_name": "Spotify SAC",
+    "category": "farmacia",
+    "country": "PE",
+    "affiliation_date": "2019-12-07",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00090",
+    "merchant_name": "Universidad de Lima SA",
+    "category": "salud",
+    "country": "PE",
+    "affiliation_date": "08/04/2018",
+    "status": "activo",
+    "risk_level": "bajo",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00091",
+    "merchant_name": "Forever 21 Peru",
+    "category": "supermercado",
+    "country": "CL",
+    "affiliation_date": "06/03/2019",
+    "status": "active",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00092",
+    "merchant_name": "Pizza Hut Sucursal",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "08/08/2018",
+    "status": "ACTIVO",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00093",
+    "merchant_name": "Grifos Repsol Sucursal",
+    "category": "entretenimiento",
+    "country": "PE",
+    "affiliation_date": "2022-01-03",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00094",
+    "merchant_name": "Tambo+ SA",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "2021-12-01",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00095",
+    "merchant_name": "Clinica Ricardo Palma SA",
+    "category": "transporte",
+    "country": "CO",
+    "affiliation_date": "02/09/2019",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00096",
+    "merchant_name": "Metro",
+    "category": "supermercado",
+    "country": "Chile",
+    "affiliation_date": "2021-01-17",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00097",
+    "merchant_name": "Clinica San Pablo EIRL",
+    "category": "transporte",
+    "country": "CL",
+    "affiliation_date": "2018-09-05",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00098",
+    "merchant_name": "Starbucks Peru Peru",
+    "category": "Restaurante",
+    "country": "PE",
+    "affiliation_date": "28/06/2019",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00099",
+    "merchant_name": "USIL SA",
+    "category": "restaurante",
+    "country": "PE",
+    "affiliation_date": "2018-01-04",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00100",
+    "merchant_name": "KFC Peru",
+    "category": "transporte",
+    "country": "CL",
+    "affiliation_date": "15/09/2020",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00101",
+    "merchant_name": "Zara Peru Sucursal",
+    "category": "TECNOLOGIA",
+    "country": "PE",
+    "affiliation_date": "",
+    "status": "active",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00102",
+    "merchant_name": "Clinica Delgado Sucursal",
+    "category": "Restaurante",
+    "country": "PE",
+    "affiliation_date": "2019-03-13",
+    "status": "inactivo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00103",
+    "merchant_name": "Ripley Sucursal",
+    "category": "Supermercado",
+    "country": "MX",
+    "affiliation_date": "17/01/2023",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00104",
+    "merchant_name": "Rappi SRL",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "2021-04-18",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00105",
+    "merchant_name": "Saga Falabella",
+    "category": "transporte",
+    "country": "PE",
+    "affiliation_date": "2019-05-24",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00106",
+    "merchant_name": "Uber Peru Peru",
+    "category": "moda",
+    "country": "PER",
+    "affiliation_date": "11/09/2019",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00107",
+    "merchant_name": "McDonald's Lima SA",
+    "category": "entretenimiento",
+    "country": "CO",
+    "affiliation_date": "28/04/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00108",
+    "merchant_name": "Clinica Ricardo Palma Sucursal",
+    "category": "entretenimiento",
+    "country": "PE",
+    "affiliation_date": "2020-04-02",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00109",
+    "merchant_name": "Sodimac Sucursal",
+    "category": "Tecnologia",
+    "country": "CO",
+    "affiliation_date": "25/03/2018",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00110",
+    "merchant_name": "Papa John's Sucursal",
+    "category": "supermercado",
+    "country": "Argentina",
+    "affiliation_date": "28/05/2020",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00111",
+    "merchant_name": "Domino's SRL",
+    "category": "farmacia",
+    "country": "MX",
+    "affiliation_date": "2022-05-20",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00112",
+    "merchant_name": "Fasa EIRL",
+    "category": "restaurante",
+    "country": "CO",
+    "affiliation_date": "23/10/2018",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00113",
+    "merchant_name": "Oltursa SAC",
+    "category": "Restaurante",
+    "country": "PE",
+    "affiliation_date": "04/07/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00114",
+    "merchant_name": "Saga Falabella SAC",
+    "category": "moda",
+    "country": "MX",
+    "affiliation_date": "2022-04-02",
+    "status": "suspendido",
+    "risk_level": "bajo",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00115",
+    "merchant_name": "Yape Comercios Sucursal",
+    "category": "SUPERMERCADO",
+    "country": "CO",
+    "affiliation_date": "2021-08-13",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00116",
+    "merchant_name": "Forever 21 Peru",
+    "category": "Supermercado",
+    "country": "PE",
+    "affiliation_date": "2022-10-11",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00117",
+    "merchant_name": "UPC Sucursal",
+    "category": "supermercado",
+    "country": "CL",
+    "affiliation_date": "2020-06-10",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00118",
+    "merchant_name": "Plaza Vea Peru",
+    "category": "supermercado",
+    "country": "MX",
+    "affiliation_date": "26/06/2019",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00119",
+    "merchant_name": "Uber Peru SA",
+    "category": "entretenimiento",
+    "country": "peru",
+    "affiliation_date": "2023-04-29",
+    "status": "activo",
+    "risk_level": "N/A"
+  },
+  {
+    "merchant_id": "MCH-00120",
+    "merchant_name": "Cassinelli SA",
+    "category": "entretenimiento",
+    "country": "Peru",
+    "affiliation_date": "2019-10-08",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00121",
+    "merchant_name": "Cruz del Sur",
+    "category": "entretenimiento",
+    "country": "AR",
+    "affiliation_date": "20/06/2018",
+    "status": "activo",
+    "risk_level": "N/A"
+  },
+  {
+    "merchant_id": "MCH-00122",
+    "merchant_name": "Netflix Peru SAC",
+    "category": "retail",
+    "country": "CL",
+    "affiliation_date": "2022-07-27",
+    "status": "activo",
+    "risk_level": "ALTO"
+  },
+  {
+    "merchant_id": "MCH-00123",
+    "merchant_name": "Boticas Arcangel",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "05/08/2021",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00124",
+    "merchant_name": "McDonald's Lima SAC",
+    "category": "FARMACIA",
+    "country": "peru",
+    "affiliation_date": "2020-02-07",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00125",
+    "merchant_name": "Adidas Peru",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "2022-08-09",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00126",
+    "merchant_name": "Papa John's EIRL",
+    "category": "supermercado",
+    "country": "AR",
+    "affiliation_date": "2018-04-10",
+    "status": "suspendido",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00127",
+    "merchant_name": "H&M EIRL",
+    "category": "entretenimiento",
+    "country": "MX",
+    "affiliation_date": "2022-12-13",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00128",
+    "merchant_name": "Tambo+ Sucursal",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "2018-08-28",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00129",
+    "merchant_name": "BTL Pharma",
+    "category": "salud",
+    "country": "ARG",
+    "affiliation_date": "2018-05-24",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00130",
+    "merchant_name": "Coolbox Sucursal",
+    "category": "moda",
+    "country": "MX",
+    "affiliation_date": "2020-06-26",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00131",
+    "merchant_name": "Inkafarma Sucursal",
+    "category": "retail",
+    "country": "CO",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00132",
+    "merchant_name": "USIL Sucursal",
+    "category": "farmacia",
+    "country": "PE",
+    "affiliation_date": "2018-10-31",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00133",
+    "merchant_name": "Latam Airlines Sucursal",
+    "category": "educacion",
+    "country": "CO",
+    "affiliation_date": "2020-12-21",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00134",
+    "merchant_name": "Bembos SA",
+    "category": "entretenimiento",
+    "country": "MX",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00135",
+    "merchant_name": "Metro EIRL",
+    "category": "entretenimiento",
+    "country": "MX",
+    "affiliation_date": "2018-03-15",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00136",
+    "merchant_name": "Fasa Peru",
+    "category": "Tecnologia",
+    "country": "CL",
+    "affiliation_date": "2021-08-29",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00137",
+    "merchant_name": "Spotify SAC",
+    "category": "supermercado",
+    "country": "AR",
+    "affiliation_date": "2019-08-24",
+    "status": "suspendido",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00138",
+    "merchant_name": "Wong EIRL",
+    "category": "Retail",
+    "country": "PE",
+    "affiliation_date": "2019-02-18",
+    "status": "activo",
+    "risk_level": null,
+    "internal_code": "INT-0138"
+  },
+  {
+    "merchant_id": "MCH-00139",
+    "merchant_name": "Grifos Repsol SA",
+    "category": "salud",
+    "country": "MX",
+    "affiliation_date": "2019-06-06",
+    "status": "activo",
+    "risk_level": null,
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00140",
+    "merchant_name": "Latam Airlines SAC",
+    "category": "moda",
+    "country": "AR",
+    "affiliation_date": "31/12/2021",
+    "status": "activo",
+    "risk_level": "bajo",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00141",
+    "merchant_name": "PUCP Peru",
+    "category": "farmacia",
+    "country": "CO",
+    "affiliation_date": "06/08/2022",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00142",
+    "merchant_name": "Epic Games EIRL",
+    "category": "retail",
+    "country": "MX",
+    "affiliation_date": "2018-05-28",
+    "status": "activo",
+    "risk_level": "N/A"
+  },
+  {
+    "merchant_id": "MCH-00143",
+    "merchant_name": "Centrum",
+    "category": "restaurante",
+    "country": "PE",
+    "affiliation_date": "2021-12-05",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00144",
+    "merchant_name": "BCP Pagos SA",
+    "category": "educacion",
+    "country": "AR",
+    "affiliation_date": "2021-12-31",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00145",
+    "merchant_name": "Tambo+ SAC",
+    "category": "FARMACIA",
+    "country": "MX",
+    "affiliation_date": "25/03/2019",
+    "status": "suspendido",
+    "risk_level": " alto"
+  },
+  {
+    "merchant_id": "MCH-00146",
+    "merchant_name": "Wong",
+    "category": "restaurante",
+    "country": "MEX",
+    "affiliation_date": "21/03/2021",
+    "status": "activo",
+    "risk_level": "bajo",
+    "internal_code": "INT-0146"
+  },
+  {
+    "merchant_id": "MCH-00147",
+    "merchant_name": "Cabify SRL",
+    "category": "SUPERMERCADO",
+    "country": "CL",
+    "affiliation_date": "2022-07-18",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00148",
+    "merchant_name": "Ripley",
+    "category": "farmacia",
+    "country": "MX",
+    "affiliation_date": "19/05/2018",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00149",
+    "merchant_name": "Domino's",
+    "category": "salud",
+    "country": "PE",
+    "affiliation_date": "2018-06-03",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00150",
+    "merchant_name": "Uber Peru SA",
+    "category": "Restaurante",
+    "country": "AR",
+    "affiliation_date": "2020-06-26",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00151",
+    "merchant_name": "Ripley SA",
+    "category": "educacion",
+    "country": "MX",
+    "affiliation_date": "30/01/2023",
+    "status": "Activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00152",
+    "merchant_name": "Starbucks Peru",
+    "category": "salud",
+    "country": "CO",
+    "affiliation_date": "2020-01-18",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00153",
+    "merchant_name": "UVK Multicines SAC",
+    "category": "restaurante",
+    "country": "CL",
+    "affiliation_date": "06/01/2023",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00154",
+    "merchant_name": "Latam Airlines SAC",
+    "category": "transporte",
+    "country": "PE",
+    "affiliation_date": "2022-05-09",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00155",
+    "merchant_name": "Wong EIRL",
+    "category": "TECNOLOGIA",
+    "country": "AR",
+    "affiliation_date": "27/03/2018",
+    "status": "activo",
+    "risk_level": "ALTO"
+  },
+  {
+    "merchant_id": "MCH-00156",
+    "merchant_name": "Inkafarma Peru",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "2018-02-06",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00157",
+    "merchant_name": "Tambo+ SA",
+    "category": "supermercado",
+    "country": "AR",
+    "affiliation_date": "2020-09-03",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00158",
+    "merchant_name": "Plin Afiliados Peru",
+    "category": "retail",
+    "country": "CO",
+    "affiliation_date": "18/08/2018",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00159",
+    "merchant_name": "Epic Games SAC",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "23/12/2019",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00160",
+    "merchant_name": "Epic Games Peru",
+    "category": "retail",
+    "country": "CL",
+    "affiliation_date": "28/03/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00161",
+    "merchant_name": "USIL Sucursal",
+    "category": "educacion",
+    "country": "MX",
+    "affiliation_date": "15/07/2019",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00162",
+    "merchant_name": "Spotify Sucursal",
+    "category": "tecnologia",
+    "country": "AR",
+    "affiliation_date": "05/09/2020",
+    "status": "suspendido",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00163",
+    "merchant_name": "Listo! Sucursal",
+    "category": "TECNOLOGIA",
+    "country": "AR",
+    "affiliation_date": "2022-09-09",
+    "status": "activo",
+    "risk_level": "bajo",
+    "internal_code": "INT-0163"
+  },
+  {
+    "merchant_id": "MCH-00164",
+    "merchant_name": "Forever 21 EIRL",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "08/05/2019",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00165",
+    "merchant_name": "Promart SRL",
+    "category": "educacion",
+    "country": "MX",
+    "affiliation_date": "2022-11-26",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00166",
+    "merchant_name": "Latam Airlines Sucursal",
+    "category": "salud",
+    "country": "AR",
+    "affiliation_date": "2022-05-03",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00167",
+    "merchant_name": "Wong",
+    "category": "salud",
+    "country": "COL",
+    "affiliation_date": "04/04/2018",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00168",
+    "merchant_name": "Clinica Ricardo Palma EIRL",
+    "category": "Restaurante",
+    "country": "COL",
+    "affiliation_date": "2019-12-02",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00169",
+    "merchant_name": "Universidad de Lima SRL",
+    "category": "Farmacia",
+    "country": "AR",
+    "affiliation_date": "13/07/2018",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00170",
+    "merchant_name": "Wong SA",
+    "category": "SUPERMERCADO",
+    "country": "PE",
+    "affiliation_date": "07/02/2023",
+    "status": "activo",
+    "risk_level": "bajo",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00171",
+    "merchant_name": "McDonald's Lima SA",
+    "category": "supermercado",
+    "country": "MEX",
+    "affiliation_date": "28/09/2018",
+    "status": "suspendido",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00172",
+    "merchant_name": "Netflix Peru Sucursal",
+    "category": "entretenimiento",
+    "country": "AR",
+    "affiliation_date": "2023-05-27",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00173",
+    "merchant_name": "Cinemark SAC",
+    "category": "moda",
+    "country": "AR",
+    "affiliation_date": "2018-04-30",
+    "status": "activo",
+    "risk_level": "N/A"
+  },
+  {
+    "merchant_id": "MCH-00174",
+    "merchant_name": "Epic Games",
+    "category": "Tecnologia",
+    "country": "CL",
+    "affiliation_date": "2023-04-06",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00175",
+    "merchant_name": "Grifos Repsol",
+    "category": "TECNOLOGIA",
+    "country": "EC",
+    "affiliation_date": "12/07/2020",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00176",
+    "merchant_name": "Steam Peru",
+    "category": "salud",
+    "country": "MX",
+    "affiliation_date": "2020-04-21",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00177",
+    "merchant_name": "Primax SAC",
+    "category": "SUPERMERCADO",
+    "country": "MX",
+    "affiliation_date": "26/11/2022",
+    "status": "inactivo",
+    "risk_level": "bajo",
+    "last_updated_by": "etl_process"
+  },
+  {
+    "merchant_id": "MCH-00178",
+    "merchant_name": "Oechsle EIRL",
+    "category": "educacion",
+    "country": "CL",
+    "affiliation_date": "2019-11-22",
+    "status": "inactivo",
+    "risk_level": "medio",
+    "last_updated_by": "etl_process"
+  },
+  {
+    "merchant_id": "MCH-00179",
+    "merchant_name": "Hiraoka Peru",
+    "category": "transporte",
+    "country": "CO",
+    "affiliation_date": "03/03/2020",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00180",
+    "merchant_name": "Oechsle SRL",
+    "category": "tecnologia",
+    "country": "PE",
+    "affiliation_date": "2018-06-24",
+    "status": "activo",
+    "risk_level": "sin clasificar",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00181",
+    "merchant_name": "McDonald's Lima EIRL",
+    "category": "RETAIL",
+    "country": "CL",
+    "affiliation_date": "08/06/2018",
+    "status": "INACTIVO",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00182",
+    "merchant_name": "Listo!",
+    "category": "educacion",
+    "country": "PER",
+    "affiliation_date": "2020-08-21",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00183",
+    "merchant_name": "Popeyes Peru",
+    "category": "restaurante",
+    "country": "EC",
+    "affiliation_date": "2019-01-09",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00184",
+    "merchant_name": "Rappi SAC",
+    "category": "educacion",
+    "country": "CL",
+    "affiliation_date": "2018-05-07",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00185",
+    "merchant_name": "Nike SRL",
+    "category": "Retail",
+    "country": "MX",
+    "affiliation_date": "15/10/2020",
+    "status": "inactivo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00186",
+    "merchant_name": "Boticas Arcangel SAC",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "10/01/2022",
+    "status": "inactivo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00187",
+    "merchant_name": "Oltursa SA",
+    "category": "transporte",
+    "country": "CO",
+    "affiliation_date": "27/06/2019",
+    "status": "activo",
+    "risk_level": "ALTO"
+  },
+  {
+    "merchant_id": "MCH-00188",
+    "merchant_name": "UPC SA",
+    "category": "restaurante",
+    "country": "CO",
+    "affiliation_date": "19/12/2018",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00189",
+    "merchant_name": "Plin Afiliados Peru",
+    "category": "transporte",
+    "country": "CO",
+    "affiliation_date": "2021-04-12",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00190",
+    "merchant_name": "Cruz del Sur EIRL",
+    "category": "tecnologia",
+    "country": "PE",
+    "affiliation_date": "2019-01-30",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00191",
+    "merchant_name": "Saga Falabella SA",
+    "category": "farmacia",
+    "country": "CL",
+    "affiliation_date": "2018-02-11",
+    "status": "ACTIVO",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00192",
+    "merchant_name": "Cruz del Sur Sucursal",
+    "category": "supermercado",
+    "country": "CL",
+    "affiliation_date": "2018-08-29",
+    "status": "ACTIVO",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00193",
+    "merchant_name": "Oltursa",
+    "category": "educacion",
+    "country": "CO",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00194",
+    "merchant_name": "Promart",
+    "category": "restaurante",
+    "country": "CO",
+    "affiliation_date": "2020-11-01",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00195",
+    "merchant_name": "Listo! SRL",
+    "category": "retail",
+    "country": "AR",
+    "affiliation_date": "2019-11-11",
+    "status": "suspendido",
+    "risk_level": "N/A"
+  },
+  {
+    "merchant_id": "MCH-00196",
+    "merchant_name": "Epic Games SAC",
+    "category": "TECNOLOGIA",
+    "country": "AR",
+    "affiliation_date": "2021-01-04",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00197",
+    "merchant_name": "Papa John's SRL",
+    "category": "educacion",
+    "country": "MX",
+    "affiliation_date": "2023-01-14",
+    "status": "Inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00198",
+    "merchant_name": "Boticas Arcangel EIRL",
+    "category": "salud",
+    "country": "MX",
+    "affiliation_date": "07/08/2019",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00199",
+    "merchant_name": "Oltursa",
+    "category": "farmacia",
+    "country": "AR",
+    "affiliation_date": "2018-10-28",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00200",
+    "merchant_name": "KFC Peru SAC",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "12/01/2022",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00201",
+    "merchant_name": "Bembos Peru",
+    "category": "tecnologia",
+    "country": "PE",
+    "affiliation_date": "2018-11-04",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00202",
+    "merchant_name": "Plin Afiliados Sucursal",
+    "category": "retail",
+    "country": "Peru",
+    "affiliation_date": "2020-04-22",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00203",
+    "merchant_name": "UVK Multicines",
+    "category": "RETAIL",
+    "country": "MX",
+    "affiliation_date": "2020-10-18",
+    "status": "activo",
+    "risk_level": "bajo "
+  },
+  {
+    "merchant_id": "MCH-00204",
+    "merchant_name": "Centrum",
+    "category": "supermercado",
+    "country": "Peru",
+    "affiliation_date": "09/04/2022",
+    "status": "ACTIVO",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00205",
+    "merchant_name": "Saga Falabella Peru",
+    "category": "tecnologia",
+    "country": "AR",
+    "affiliation_date": "2020-04-04",
+    "status": "activo",
+    "risk_level": "bajo",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00206",
+    "merchant_name": "Zara Peru Sucursal",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "25/02/2023",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00207",
+    "merchant_name": "Cabify",
+    "category": "tecnologia",
+    "country": "AR",
+    "affiliation_date": "10/01/2021",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00208",
+    "merchant_name": "Primax",
+    "category": "tecnologia",
+    "country": "CO",
+    "affiliation_date": "2020-03-13",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00209",
+    "merchant_name": "Cabify SRL",
+    "category": "educacion",
+    "country": "CL",
+    "affiliation_date": "08/05/2019",
+    "status": "activo",
+    "risk_level": null,
+    "legacy_id": "LEG-000209"
+  },
+  {
+    "merchant_id": "MCH-00210",
+    "merchant_name": "Fasa Peru",
+    "category": "tecnologia",
+    "country": "AR",
+    "affiliation_date": "22/03/2020",
+    "status": "activo",
+    "risk_level": "MEDIO"
+  },
+  {
+    "merchant_id": "MCH-00211",
+    "merchant_name": "Domino's Sucursal",
+    "category": "salud",
+    "country": "PE",
+    "affiliation_date": "2018-11-01",
+    "status": "activo",
+    "risk_level": "alto",
+    "legacy_id": "LEG-000211"
+  },
+  {
+    "merchant_id": "MCH-00212",
+    "merchant_name": "Coolbox EIRL",
+    "category": "salud",
+    "country": "AR",
+    "affiliation_date": "2022-10-28",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00213",
+    "merchant_name": "Starbucks Peru EIRL",
+    "category": "farmacia",
+    "country": "CO",
+    "affiliation_date": "01/09/2019",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00214",
+    "merchant_name": "Maestro SRL",
+    "category": "salud",
+    "country": "CO",
+    "affiliation_date": "2020-05-29",
+    "status": "inactivo",
+    "risk_level": "sin clasificar"
+  },
+  {
+    "merchant_id": "MCH-00215",
+    "merchant_name": "Clinica Ricardo Palma SAC",
+    "category": "moda",
+    "country": "CL",
+    "affiliation_date": "2018-10-17",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00216",
+    "merchant_name": "Sodimac",
+    "category": "tecnologia",
+    "country": "MX",
+    "affiliation_date": "2020-04-25",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00217",
+    "merchant_name": "Tottus SA",
+    "category": "salud",
+    "country": "PE",
+    "affiliation_date": "07/03/2018",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00218",
+    "merchant_name": "BTL Pharma EIRL",
+    "category": "transporte",
+    "country": "CHI",
+    "affiliation_date": "2018-05-19",
+    "status": "Activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00219",
+    "merchant_name": "Saga Falabella Sucursal",
+    "category": "Tecnologia",
+    "country": "MX",
+    "affiliation_date": "31/10/2019",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00220",
+    "merchant_name": "Popeyes",
+    "category": "transporte",
+    "country": "MX",
+    "affiliation_date": "02/02/2022",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00221",
+    "merchant_name": "Grifos Repsol SA",
+    "category": "farmacia",
+    "country": "MEX",
+    "affiliation_date": "17/10/2021",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00222",
+    "merchant_name": "Promart SRL",
+    "category": "restaurante",
+    "country": "PE",
+    "affiliation_date": "2021-05-20",
+    "status": "suspendido",
+    "risk_level": "alto",
+    "internal_code": "INT-0222"
+  },
+  {
+    "merchant_id": "MCH-00223",
+    "merchant_name": "Papa John's",
+    "category": "entretenimiento",
+    "country": "CL",
+    "affiliation_date": "20/04/2021",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00224",
+    "merchant_name": "Popeyes SA",
+    "category": "supermercado",
+    "country": "CL",
+    "affiliation_date": "2020-03-13",
+    "status": "Inactivo",
+    "risk_level": "BAJO"
+  },
+  {
+    "merchant_id": "MCH-00225",
+    "merchant_name": "Uber Peru EIRL",
+    "category": "farmacia",
+    "country": "PE",
+    "affiliation_date": "2019-12-24",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00226",
+    "merchant_name": "Universidad de Lima EIRL",
+    "category": "Restaurante",
+    "country": "AR",
+    "affiliation_date": "2019-08-06",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00227",
+    "merchant_name": "Saga Falabella Sucursal",
+    "category": "supermercado",
+    "country": "MX",
+    "affiliation_date": "06/12/2018",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00228",
+    "merchant_name": "Spotify SRL",
+    "category": "entretenimiento",
+    "country": "CO",
+    "affiliation_date": "27/06/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00229",
+    "merchant_name": "Uber Peru",
+    "category": "farmacia",
+    "country": "PE",
+    "affiliation_date": "2021-02-23",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00230",
+    "merchant_name": "USIL",
+    "category": "tecnologia",
+    "country": "PE",
+    "affiliation_date": "07/02/2019",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00231",
+    "merchant_name": "Bembos SRL",
+    "category": "RESTAURANTE",
+    "country": "PE",
+    "affiliation_date": "14/10/2019",
+    "status": "activo",
+    "risk_level": "alto",
+    "legacy_id": "LEG-000231"
+  },
+  {
+    "merchant_id": "MCH-00232",
+    "merchant_name": "inDrive Sucursal",
+    "category": "restaurante",
+    "country": "MX",
+    "affiliation_date": "09/01/2020",
+    "status": "Activo",
+    "risk_level": "bajo",
+    "legacy_id": "LEG-000232"
+  },
+  {
+    "merchant_id": "MCH-00233",
+    "merchant_name": "Spotify",
+    "category": "entretenimiento",
+    "country": "CO",
+    "affiliation_date": "2019-11-21",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00234",
+    "merchant_name": "Forever 21",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "18/12/2020",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00235",
+    "merchant_name": "Maestro",
+    "category": "tecnologia",
+    "country": "CL",
+    "affiliation_date": "15/08/2019",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00236",
+    "merchant_name": "Zara Peru SRL",
+    "category": "tecnologia",
+    "country": "PE",
+    "affiliation_date": "17/07/2021",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00237",
+    "merchant_name": "Promart SRL",
+    "category": "Farmacia",
+    "country": "AR",
+    "affiliation_date": "21/04/2018",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00238",
+    "merchant_name": "Clinica San Pablo SAC",
+    "category": "salud",
+    "country": "ARG",
+    "affiliation_date": "26/05/2022",
+    "status": "inactivo",
+    "risk_level": " alto"
+  },
+  {
+    "merchant_id": "MCH-00239",
+    "merchant_name": "Starbucks Peru EIRL",
+    "category": "restaurante",
+    "country": "AR",
+    "affiliation_date": "2023-02-11",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00240",
+    "merchant_name": "KFC Peru SAC",
+    "category": "RETAIL",
+    "country": "CO",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00241",
+    "merchant_name": "Listo! SRL",
+    "category": "moda",
+    "country": "MX",
+    "affiliation_date": "14/03/2020",
+    "status": "activo",
+    "risk_level": "medio",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00242",
+    "merchant_name": "PUCP SA",
+    "category": "transporte",
+    "country": "CO",
+    "affiliation_date": "2019-12-27",
+    "status": "activo",
+    "risk_level": " alto"
+  },
+  {
+    "merchant_id": "MCH-00243",
+    "merchant_name": "Promart SAC",
+    "category": "supermercado",
+    "country": "ARG",
+    "affiliation_date": "21/06/2023",
+    "status": "inactivo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00244",
+    "merchant_name": "Epic Games Sucursal",
+    "category": "entretenimiento",
+    "country": "Colombia",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00245",
+    "merchant_name": "Cassinelli EIRL",
+    "category": "restaurante",
+    "country": "AR",
+    "affiliation_date": "04/06/2021",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00246",
+    "merchant_name": "Listo! SRL",
+    "category": "retail",
+    "country": "CO",
+    "affiliation_date": "08/11/2019",
+    "status": "ACTIVO",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00247",
+    "merchant_name": "Cassinelli Peru",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "11/12/2020",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00248",
+    "merchant_name": "UVK Multicines SRL",
+    "category": "Restaurante",
+    "country": "MX",
+    "affiliation_date": "06/01/2019",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00249",
+    "merchant_name": "Cineplanet SA",
+    "category": "retail",
+    "country": "MX",
+    "affiliation_date": "2021-12-22",
+    "status": "activo",
+    "risk_level": "BAJO"
+  },
+  {
+    "merchant_id": "MCH-00250",
+    "merchant_name": "Coolbox SA",
+    "category": "tecnologia",
+    "country": "CO",
+    "affiliation_date": "27/05/2021",
+    "status": "suspended",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00251",
+    "merchant_name": "PedidosYa SAC",
+    "category": "RETAIL",
+    "country": "CL",
+    "affiliation_date": "2018-06-27",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00252",
+    "merchant_name": "Plin Afiliados SRL",
+    "category": "moda",
+    "country": "AR",
+    "affiliation_date": "2018-02-02",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00253",
+    "merchant_name": "Cassinelli SAC",
+    "category": "salud",
+    "country": "CO",
+    "affiliation_date": "2022-07-06",
+    "status": "inactivo",
+    "risk_level": "bajo",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00254",
+    "merchant_name": "",
+    "category": "entretenimiento",
+    "country": "ARG",
+    "affiliation_date": "29/09/2019",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00255",
+    "merchant_name": "H&M EIRL",
+    "category": "tecnologia",
+    "country": "AR",
+    "affiliation_date": "14/06/2021",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00256",
+    "merchant_name": "Promart Peru",
+    "category": "educacion",
+    "country": "PE",
+    "affiliation_date": "22/02/2023",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00257",
+    "merchant_name": "Rappi EIRL",
+    "category": "Farmacia",
+    "country": "CO",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00258",
+    "merchant_name": "Cineplanet SA",
+    "category": "educacion",
+    "country": "AR",
+    "affiliation_date": "08/01/2020",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00259",
+    "merchant_name": "Netflix Peru SRL",
+    "category": "supermercado",
+    "country": "MX",
+    "affiliation_date": "2023-03-19",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00260",
+    "merchant_name": "Tottus SA",
+    "category": "Restaurante",
+    "country": "CL",
+    "affiliation_date": "20/01/2020",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00261",
+    "merchant_name": "Saga Falabella Peru",
+    "category": "educacion",
+    "country": "PE",
+    "affiliation_date": "2019-12-17",
+    "status": "INACTIVO",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00262",
+    "merchant_name": "Domino's Sucursal",
+    "category": "RESTAURANTE",
+    "country": "PE",
+    "affiliation_date": "22/09/2018",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00263",
+    "merchant_name": "BCP Pagos EIRL",
+    "category": "educacion",
+    "country": "CL",
+    "affiliation_date": "2019-12-13",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00264",
+    "merchant_name": "Cassinelli",
+    "category": "FARMACIA",
+    "country": "Peru",
+    "affiliation_date": "2022-05-22",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00265",
+    "merchant_name": "Starbucks Peru SA",
+    "category": "restaurante",
+    "country": "MX",
+    "affiliation_date": "2021-06-07",
+    "status": "activo",
+    "risk_level": "BAJO"
+  },
+  {
+    "merchant_id": "MCH-00266",
+    "merchant_name": "Cassinelli Peru",
+    "category": "Farmacia",
+    "country": "CL",
+    "affiliation_date": "21/11/2020",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00267",
+    "merchant_name": "Plin Afiliados EIRL",
+    "category": "SUPERMERCADO",
+    "country": "CO",
+    "affiliation_date": "2023-02-12",
+    "status": "activo",
+    "risk_level": "medio",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00268",
+    "merchant_name": "UVK Multicines Peru",
+    "category": "entretenimiento",
+    "country": "PE",
+    "affiliation_date": "2018-09-23",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00269",
+    "merchant_name": "Metro SA",
+    "category": "Tecnologia",
+    "country": "MX",
+    "affiliation_date": "24/08/2020",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00270",
+    "merchant_name": "Cineplanet SAC",
+    "category": "moda",
+    "country": "MX",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00271",
+    "merchant_name": "Mifarma EIRL",
+    "category": "Restaurante",
+    "country": "MX",
+    "affiliation_date": "2020-02-21",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00272",
+    "merchant_name": "Domino's Sucursal",
+    "category": "entretenimiento",
+    "country": "EC",
+    "affiliation_date": "2023-03-22",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00273",
+    "merchant_name": "Maestro SRL",
+    "category": "transporte",
+    "country": "MX",
+    "affiliation_date": "22/08/2019",
+    "status": "suspendido",
+    "risk_level": "bajo "
+  },
+  {
+    "merchant_id": "MCH-00274",
+    "merchant_name": "Adidas Sucursal",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "2022-10-07",
+    "status": "activo",
+    "risk_level": "medio",
+    "last_updated_by": "etl_process"
+  },
+  {
+    "merchant_id": "MCH-00275",
+    "merchant_name": "Plaza Vea SA",
+    "category": "educacion",
+    "country": "CHI",
+    "affiliation_date": "2021-07-20",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00276",
+    "merchant_name": "",
+    "category": "restaurante",
+    "country": "CL",
+    "affiliation_date": "23/05/2021",
+    "status": "suspendido",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00277",
+    "merchant_name": "Steam EIRL",
+    "category": "TECNOLOGIA",
+    "country": "CO",
+    "affiliation_date": "2018-10-14",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00278",
+    "merchant_name": "Coolbox Sucursal",
+    "category": "farmacia",
+    "country": "MX",
+    "affiliation_date": "07/03/2019",
+    "status": "activo",
+    "risk_level": "medio",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00279",
+    "merchant_name": "Mifarma Sucursal",
+    "category": "restaurante",
+    "country": "CO",
+    "affiliation_date": "2018-02-28",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00280",
+    "merchant_name": "Domino's SAC",
+    "category": "Retail",
+    "country": "MX",
+    "affiliation_date": "2021-07-23",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00281",
+    "merchant_name": "inDrive SA",
+    "category": "supermercado",
+    "country": "PE",
+    "affiliation_date": "07/07/2019",
+    "status": "inactivo",
+    "risk_level": "sin clasificar"
+  },
+  {
+    "merchant_id": "MCH-00282",
+    "merchant_name": "Epic Games SRL",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "22/11/2018",
+    "status": "Inactivo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00283",
+    "merchant_name": "USIL Peru",
+    "category": "FARMACIA",
+    "country": "AR",
+    "affiliation_date": "2018-02-23",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00284",
+    "merchant_name": "Latam Airlines EIRL",
+    "category": "salud",
+    "country": "AR",
+    "affiliation_date": "2018-07-09",
+    "status": "active",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00285",
+    "merchant_name": "UVK Multicines",
+    "category": "supermercado",
+    "country": "PE",
+    "affiliation_date": "25/05/2018",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00286",
+    "merchant_name": "Saga Falabella Peru",
+    "category": "educacion",
+    "country": "PE",
+    "affiliation_date": "26/04/2020",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00287",
+    "merchant_name": "Sodimac",
+    "category": "Tecnologia",
+    "country": "CO",
+    "affiliation_date": "2022-03-29",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00288",
+    "merchant_name": "inDrive Sucursal",
+    "category": "transporte",
+    "country": "CO",
+    "affiliation_date": "07/11/2022",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00289",
+    "merchant_name": "Uber Peru EIRL",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "2018-01-22",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00290",
+    "merchant_name": "Wong SA",
+    "category": "restaurante",
+    "country": "CL",
+    "affiliation_date": "31/07/2021",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00291",
+    "merchant_name": "Uber Peru EIRL",
+    "category": "moda",
+    "country": "AR",
+    "affiliation_date": "24/07/2019",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00292",
+    "merchant_name": "Ripley",
+    "category": "entretenimiento",
+    "country": "PE",
+    "affiliation_date": "2022-06-14",
+    "status": "suspendido",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00293",
+    "merchant_name": "Fasa",
+    "category": "salud",
+    "country": "Argentina",
+    "affiliation_date": "",
+    "status": "INACTIVO",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00294",
+    "merchant_name": "Clinica Delgado",
+    "category": "restaurante",
+    "country": "ARG",
+    "affiliation_date": "2023-02-09",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00295",
+    "merchant_name": "Maestro",
+    "category": "farmacia",
+    "country": "CO",
+    "affiliation_date": "12/04/2018",
+    "status": "Activo",
+    "risk_level": "bajo",
+    "last_updated_by": "etl_process"
+  },
+  {
+    "merchant_id": "MCH-00296",
+    "merchant_name": "Bembos SRL",
+    "category": "salud",
+    "country": "PE",
+    "affiliation_date": "2019-07-18",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00297",
+    "merchant_name": "Rappi SAC",
+    "category": "transporte",
+    "country": "PE",
+    "affiliation_date": "03/03/2020",
+    "status": "activo",
+    "risk_level": "bajo",
+    "last_updated_by": "etl_process"
+  },
+  {
+    "merchant_id": "MCH-00298",
+    "merchant_name": "Primax SA",
+    "category": "retail",
+    "country": "CO",
+    "affiliation_date": "28/09/2019",
+    "status": "suspendido",
+    "risk_level": "bajo",
+    "legacy_id": "LEG-000298"
+  },
+  {
+    "merchant_id": "MCH-00299",
+    "merchant_name": "Adidas SA",
+    "category": "farmacia",
+    "country": "MX",
+    "affiliation_date": "11/10/2021",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00300",
+    "merchant_name": "Coolbox Sucursal",
+    "category": "entretenimiento",
+    "country": "AR",
+    "affiliation_date": "2020-10-20",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00301",
+    "merchant_name": "Cabify Peru",
+    "category": "entretenimiento",
+    "country": "AR",
+    "affiliation_date": "14/04/2022",
+    "status": "activo",
+    "risk_level": " alto"
+  },
+  {
+    "merchant_id": "MCH-00302",
+    "merchant_name": "Forever 21 EIRL",
+    "category": "tecnologia",
+    "country": "CO",
+    "affiliation_date": "09/08/2021",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00303",
+    "merchant_name": "Latam Airlines",
+    "category": "tecnologia",
+    "country": "CL",
+    "affiliation_date": "31/07/2020",
+    "status": "active",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00304",
+    "merchant_name": "Spotify",
+    "category": "retail",
+    "country": "MX",
+    "affiliation_date": "2022-10-12",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00305",
+    "merchant_name": "Cinemark Peru",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "2018-10-20",
+    "status": "Inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00306",
+    "merchant_name": "Cabify SRL",
+    "category": "Retail",
+    "country": "CO",
+    "affiliation_date": "11/06/2020",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00307",
+    "merchant_name": "Latam Airlines EIRL",
+    "category": "educacion",
+    "country": "PE",
+    "affiliation_date": "2019-03-03",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00308",
+    "merchant_name": "Listo! SA",
+    "category": "Tecnologia",
+    "country": "MX",
+    "affiliation_date": "2019-09-04",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00309",
+    "merchant_name": "Fasa",
+    "category": "tecnologia",
+    "country": "Chile",
+    "affiliation_date": "2022-01-15",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00310",
+    "merchant_name": "Spotify EIRL",
+    "category": "retail",
+    "country": "MX",
+    "affiliation_date": "2019-07-09",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00311",
+    "merchant_name": "McDonald's Lima Sucursal",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "2022-04-06",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00312",
+    "merchant_name": "Fasa SA",
+    "category": "educacion",
+    "country": "CL",
+    "affiliation_date": "2023-05-02",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00313",
+    "merchant_name": "Saga Falabella",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "06/11/2022",
+    "status": "activo",
+    "risk_level": "ALTO",
+    "last_updated_by": "etl_process"
+  },
+  {
+    "merchant_id": "MCH-00314",
+    "merchant_name": "Uber Peru",
+    "category": "transporte",
+    "country": "MX",
+    "affiliation_date": "29/05/2018",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00315",
+    "merchant_name": "McDonald's Lima",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "16/12/2018",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00316",
+    "merchant_name": "McDonald's Lima SAC",
+    "category": "salud",
+    "country": "Peru",
+    "affiliation_date": "13/04/2023",
+    "status": "suspended",
+    "risk_level": "medio",
+    "legacy_id": "LEG-000316"
+  },
+  {
+    "merchant_id": "MCH-00317",
+    "merchant_name": "H&M EIRL",
+    "category": "tecnologia",
+    "country": "CO",
+    "affiliation_date": "2018-02-08",
+    "status": "inactivo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00318",
+    "merchant_name": "Oltursa SRL",
+    "category": "transporte",
+    "country": "MX",
+    "affiliation_date": "23/03/2023",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00319",
+    "merchant_name": "Nike Peru",
+    "category": "moda",
+    "country": "AR",
+    "affiliation_date": "16/01/2019",
+    "status": "SUSPENDIDO",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00320",
+    "merchant_name": "Pizza Hut SAC",
+    "category": "restaurante",
+    "country": "MX",
+    "affiliation_date": "04/08/2020",
+    "status": "activo",
+    "risk_level": "ALTO"
+  },
+  {
+    "merchant_id": "MCH-00321",
+    "merchant_name": "inDrive",
+    "category": "educacion",
+    "country": "AR",
+    "affiliation_date": "2019-12-21",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00322",
+    "merchant_name": "KFC Peru Sucursal",
+    "category": "transporte",
+    "country": "AR",
+    "affiliation_date": "2019-02-23",
+    "status": "activo",
+    "risk_level": "MEDIO"
+  },
+  {
+    "merchant_id": "MCH-00323",
+    "merchant_name": "PedidosYa",
+    "category": "restaurante",
+    "country": "CL",
+    "affiliation_date": "2020-10-11",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00324",
+    "merchant_name": "Cinemark Peru",
+    "category": "restaurante",
+    "country": "PE",
+    "affiliation_date": "16/04/2023",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00325",
+    "merchant_name": "USIL Sucursal",
+    "category": "salud",
+    "country": "PE",
+    "affiliation_date": "2021-11-29",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00326",
+    "merchant_name": "Popeyes SRL",
+    "category": "retail",
+    "country": "PE",
+    "affiliation_date": "05/05/2019",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00327",
+    "merchant_name": "Epic Games SA",
+    "category": "entretenimiento",
+    "country": "CL",
+    "affiliation_date": "2022-08-28",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00328",
+    "merchant_name": "Listo! SRL",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "19/01/2018",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00329",
+    "merchant_name": "PedidosYa Sucursal",
+    "category": "moda",
+    "country": "MX",
+    "affiliation_date": "30/12/2021",
+    "status": "SUSPENDIDO",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00330",
+    "merchant_name": "BCP Pagos EIRL",
+    "category": "TECNOLOGIA",
+    "country": "PE",
+    "affiliation_date": "15/12/2022",
+    "status": "SUSPENDIDO",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00331",
+    "merchant_name": "Wong",
+    "category": "educacion",
+    "country": "MX",
+    "affiliation_date": "07/04/2023",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00332",
+    "merchant_name": "Bembos SRL",
+    "category": "restaurante",
+    "country": "AR",
+    "affiliation_date": "2022-08-09",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00333",
+    "merchant_name": "Netflix Peru",
+    "category": "farmacia",
+    "country": "MX",
+    "affiliation_date": "15/02/2021",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00334",
+    "merchant_name": "inDrive Peru",
+    "category": "transporte",
+    "country": "MX",
+    "affiliation_date": "05/05/2019",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00335",
+    "merchant_name": "Netflix Peru SA",
+    "category": "FARMACIA",
+    "country": "CL",
+    "affiliation_date": "2019-11-22",
+    "status": "inactivo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00336",
+    "merchant_name": "Popeyes SAC",
+    "category": "restaurante",
+    "country": "AR",
+    "affiliation_date": "02/10/2019",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00337",
+    "merchant_name": "KFC Peru SA",
+    "category": "retail",
+    "country": "AR",
+    "affiliation_date": "2020-07-06",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00338",
+    "merchant_name": "Bembos Sucursal",
+    "category": "moda",
+    "country": "AR",
+    "affiliation_date": "2023-02-01",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00339",
+    "merchant_name": "Ripley SAC",
+    "category": "restaurante",
+    "country": "PE",
+    "affiliation_date": "11/07/2022",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00340",
+    "merchant_name": "BTL Pharma EIRL",
+    "category": "supermercado",
+    "country": "CL",
+    "affiliation_date": "07/06/2020",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00341",
+    "merchant_name": "Yape Comercios SAC",
+    "category": "restaurante",
+    "country": "CHI",
+    "affiliation_date": "2022-03-20",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00342",
+    "merchant_name": "Cabify EIRL",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "2021-12-07",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00343",
+    "merchant_name": "KFC Peru Peru",
+    "category": "moda",
+    "country": "CL",
+    "affiliation_date": "01/09/2020",
+    "status": "Inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00344",
+    "merchant_name": "Netflix Peru",
+    "category": "salud",
+    "country": "PE",
+    "affiliation_date": "2022-04-14",
+    "status": "activo",
+    "risk_level": "bajo",
+    "last_updated_by": "etl_process"
+  },
+  {
+    "merchant_id": "MCH-00345",
+    "merchant_name": "Starbucks Peru SAC",
+    "category": "TECNOLOGIA",
+    "country": "PE",
+    "affiliation_date": "25/10/2020",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00346",
+    "merchant_name": "Clinica Delgado Peru",
+    "category": "Supermercado",
+    "country": "CO",
+    "affiliation_date": "28/12/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00347",
+    "merchant_name": "Hiraoka SAC",
+    "category": "salud",
+    "country": "CO",
+    "affiliation_date": "2023-01-08",
+    "status": "Inactivo",
+    "risk_level": "bajo",
+    "legacy_id": "LEG-000347"
+  },
+  {
+    "merchant_id": "MCH-00348",
+    "merchant_name": "Clinica San Pablo",
+    "category": "educacion",
+    "country": "MX",
+    "affiliation_date": "2021-02-16",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00349",
+    "merchant_name": "Plaza Vea",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "2021-01-11",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00350",
+    "merchant_name": "USIL Sucursal",
+    "category": "supermercado",
+    "country": "MX",
+    "affiliation_date": "02/10/2022",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00351",
+    "merchant_name": "Adidas",
+    "category": "Supermercado",
+    "country": "MX",
+    "affiliation_date": "20/02/2021",
+    "status": "inactivo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00352",
+    "merchant_name": "Cabify SAC",
+    "category": "entretenimiento",
+    "country": "MX",
+    "affiliation_date": "2019-02-11",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00353",
+    "merchant_name": "BTL Pharma Peru",
+    "category": "restaurante",
+    "country": "ARG",
+    "affiliation_date": "2021-09-30",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00354",
+    "merchant_name": "Steam Peru",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "2021-11-14",
+    "status": "ACTIVO",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00355",
+    "merchant_name": "Starbucks Peru EIRL",
+    "category": "educacion",
+    "country": "CL",
+    "affiliation_date": "2023-02-20",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00356",
+    "merchant_name": "Hiraoka",
+    "category": "FARMACIA",
+    "country": "MX",
+    "affiliation_date": "15/02/2022",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00357",
+    "merchant_name": "Domino's",
+    "category": "salud",
+    "country": "CO",
+    "affiliation_date": "2020-10-21",
+    "status": "inactivo",
+    "risk_level": "BAJO"
+  },
+  {
+    "merchant_id": "MCH-00358",
+    "merchant_name": "Papa John's EIRL",
+    "category": "salud",
+    "country": "Argentina",
+    "affiliation_date": "2022-04-06",
+    "status": "ACTIVO",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00359",
+    "merchant_name": "Clinica San Pablo SRL",
+    "category": "supermercado",
+    "country": "CL",
+    "affiliation_date": "25/03/2022",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00360",
+    "merchant_name": "Listo!",
+    "category": "TECNOLOGIA",
+    "country": "PE",
+    "affiliation_date": "04/02/2023",
+    "status": "Activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00361",
+    "merchant_name": "Adidas EIRL",
+    "category": "farmacia",
+    "country": "MX",
+    "affiliation_date": "03/04/2022",
+    "status": "activo",
+    "risk_level": "bajo",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00362",
+    "merchant_name": "Domino's Peru",
+    "category": "retail",
+    "country": "COL",
+    "affiliation_date": "2023-03-20",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00363",
+    "merchant_name": "Uber Peru SRL",
+    "category": "farmacia",
+    "country": "AR",
+    "affiliation_date": "2022-07-25",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00364",
+    "merchant_name": "Spotify EIRL",
+    "category": "retail",
+    "country": "CL",
+    "affiliation_date": "16/09/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00365",
+    "merchant_name": "Adidas SRL",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "06/02/2019",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00366",
+    "merchant_name": "Plaza Vea SA",
+    "category": "tecnologia",
+    "country": "CL",
+    "affiliation_date": "2019-07-26",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00367",
+    "merchant_name": "Cineplanet",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "2020-01-09",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00368",
+    "merchant_name": "Centrum",
+    "category": "SUPERMERCADO",
+    "country": "AR",
+    "affiliation_date": "06/10/2019",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00369",
+    "merchant_name": "Domino's EIRL",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "30/07/2019",
+    "status": "suspendido",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00370",
+    "merchant_name": "Cinemark Peru",
+    "category": "salud",
+    "country": "ARG",
+    "affiliation_date": "22/05/2022",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00371",
+    "merchant_name": "Ripley SA",
+    "category": "retail",
+    "country": "MX",
+    "affiliation_date": "03/11/2022",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00372",
+    "merchant_name": "UPC SRL",
+    "category": "TECNOLOGIA",
+    "country": "PE",
+    "affiliation_date": "03/05/2018",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00373",
+    "merchant_name": "Pizza Hut SRL",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "14/05/2021",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00374",
+    "merchant_name": "BCP Pagos SA",
+    "category": "salud",
+    "country": "PER",
+    "affiliation_date": "2018-09-15",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00375",
+    "merchant_name": "Starbucks Peru Peru",
+    "category": "tecnologia",
+    "country": "PE",
+    "affiliation_date": "2018-10-09",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00376",
+    "merchant_name": "Saga Falabella",
+    "category": "educacion",
+    "country": "CL",
+    "affiliation_date": "2022-03-24",
+    "status": "Inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00377",
+    "merchant_name": "Fasa EIRL",
+    "category": "farmacia",
+    "country": "PE",
+    "affiliation_date": "24/04/2021",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00378",
+    "merchant_name": "Cinemark SRL",
+    "category": "SUPERMERCADO",
+    "country": "AR",
+    "affiliation_date": "15/05/2018",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00379",
+    "merchant_name": "PUCP",
+    "category": "RETAIL",
+    "country": "CHI",
+    "affiliation_date": "12/05/2023",
+    "status": "activo",
+    "risk_level": "bajo",
+    "internal_code": "INT-0379"
+  },
+  {
+    "merchant_id": "MCH-00380",
+    "merchant_name": "Netflix Peru Sucursal",
+    "category": "educacion",
+    "country": "CO",
+    "affiliation_date": "2022-10-12",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00381",
+    "merchant_name": "Forever 21 Sucursal",
+    "category": "educacion",
+    "country": "MX",
+    "affiliation_date": "2018-12-24",
+    "status": "activo",
+    "risk_level": "medio",
+    "legacy_id": "LEG-000381"
+  },
+  {
+    "merchant_id": "MCH-00382",
+    "merchant_name": "Netflix Peru SAC",
+    "category": "educacion",
+    "country": "Peru",
+    "affiliation_date": "16/10/2022",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00383",
+    "merchant_name": "Mifarma SRL",
+    "category": "TECNOLOGIA",
+    "country": "PE",
+    "affiliation_date": "03/05/2022",
+    "status": "suspendido",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00384",
+    "merchant_name": "Plaza Vea Peru",
+    "category": "restaurante",
+    "country": "AR",
+    "affiliation_date": "2019-05-19",
+    "status": "inactive",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00385",
+    "merchant_name": "Clinica Ricardo Palma EIRL",
+    "category": "entretenimiento",
+    "country": "PE",
+    "affiliation_date": "08/12/2019",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00386",
+    "merchant_name": "Uber Peru",
+    "category": "Farmacia",
+    "country": "PE",
+    "affiliation_date": "2021-12-10",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00387",
+    "merchant_name": "Cabify",
+    "category": "farmacia",
+    "country": "MX",
+    "affiliation_date": "20/07/2022",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00388",
+    "merchant_name": "Latam Airlines",
+    "category": "restaurante",
+    "country": "PE",
+    "affiliation_date": "01/11/2020",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00389",
+    "merchant_name": "Maestro Sucursal",
+    "category": "farmacia",
+    "country": "CO",
+    "affiliation_date": "07/05/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00390",
+    "merchant_name": "",
+    "category": "transporte",
+    "country": "MX",
+    "affiliation_date": "2023-02-12",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00391",
+    "merchant_name": "Ripley Sucursal",
+    "category": "salud",
+    "country": "CO",
+    "affiliation_date": "2019-02-18",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00392",
+    "merchant_name": "Yape Comercios",
+    "category": "educacion",
+    "country": "CO",
+    "affiliation_date": "2018-06-26",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00393",
+    "merchant_name": "UVK Multicines SRL",
+    "category": "Farmacia",
+    "country": "PE",
+    "affiliation_date": "2023-05-24",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00394",
+    "merchant_name": "H&M",
+    "category": "supermercado",
+    "country": "MX",
+    "affiliation_date": "01/03/2020",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00395",
+    "merchant_name": "Netflix Peru SA",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "2022-01-07",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00396",
+    "merchant_name": "Plaza Vea",
+    "category": "restaurante",
+    "country": "MX",
+    "affiliation_date": "09/07/2019",
+    "status": "activo",
+    "risk_level": "N/A"
+  },
+  {
+    "merchant_id": "MCH-00397",
+    "merchant_name": "Oltursa Peru",
+    "category": "transporte",
+    "country": "AR",
+    "affiliation_date": "2020-11-07",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00398",
+    "merchant_name": "Uber Peru SAC",
+    "category": "entretenimiento",
+    "country": "MX",
+    "affiliation_date": "2019-05-28",
+    "status": "activo",
+    "risk_level": " alto"
+  },
+  {
+    "merchant_id": "MCH-00399",
+    "merchant_name": "Centrum",
+    "category": "entretenimiento",
+    "country": "MX",
+    "affiliation_date": "05/09/2021",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00400",
+    "merchant_name": "Yape Comercios",
+    "category": "salud",
+    "country": "CO",
+    "affiliation_date": "2018-11-19",
+    "status": "inactivo",
+    "risk_level": "BAJO"
+  },
+  {
+    "merchant_id": "MCH-00401",
+    "merchant_name": "Pizza Hut",
+    "category": "RETAIL",
+    "country": "AR",
+    "affiliation_date": "2019-05-29",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00402",
+    "merchant_name": "BCP Pagos EIRL",
+    "category": "entretenimiento",
+    "country": "AR",
+    "affiliation_date": "2023-06-24",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00403",
+    "merchant_name": "BCP Pagos SA",
+    "category": "farmacia",
+    "country": "AR",
+    "affiliation_date": "2022-09-16",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00404",
+    "merchant_name": "BTL Pharma EIRL",
+    "category": "educacion",
+    "country": "CL",
+    "affiliation_date": "26/01/2020",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00405",
+    "merchant_name": "Mifarma SA",
+    "category": "retail",
+    "country": "PE",
+    "affiliation_date": "2019-02-21",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00406",
+    "merchant_name": "Oechsle SRL",
+    "category": "entretenimiento",
+    "country": "CL",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00407",
+    "merchant_name": "Universidad de Lima",
+    "category": "farmacia",
+    "country": "BR",
+    "affiliation_date": "2021-12-01",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00408",
+    "merchant_name": "Starbucks Peru Sucursal",
+    "category": "Farmacia",
+    "country": "AR",
+    "affiliation_date": "2022-01-07",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00409",
+    "merchant_name": "Adidas",
+    "category": "entretenimiento",
+    "country": "PE",
+    "affiliation_date": "2021-06-19",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00410",
+    "merchant_name": "H&M SA",
+    "category": "farmacia",
+    "country": "ARG",
+    "affiliation_date": "08/06/2021",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00411",
+    "merchant_name": "Tambo+ SRL",
+    "category": "supermercado",
+    "country": "MX",
+    "affiliation_date": "08/12/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00412",
+    "merchant_name": "UPC EIRL",
+    "category": "retail",
+    "country": "MX",
+    "affiliation_date": "18/11/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00413",
+    "merchant_name": "Maestro SA",
+    "category": "transporte",
+    "country": "AR",
+    "affiliation_date": "2023-05-25",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00414",
+    "merchant_name": "Latam Airlines",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "2018-12-13",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00415",
+    "merchant_name": "Domino's SAC",
+    "category": "supermercado",
+    "country": "CL",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00416",
+    "merchant_name": "BCP Pagos SRL",
+    "category": "restaurante",
+    "country": "CO",
+    "affiliation_date": "02/12/2020",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00417",
+    "merchant_name": "Cinemark",
+    "category": "supermercado",
+    "country": "CL",
+    "affiliation_date": "18/06/2023",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00418",
+    "merchant_name": "Papa John's",
+    "category": "supermercado",
+    "country": "AR",
+    "affiliation_date": "21/04/2019",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00419",
+    "merchant_name": "PUCP Peru",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "2020-05-31",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00420",
+    "merchant_name": "BTL Pharma Sucursal",
+    "category": "salud",
+    "country": "CL",
+    "affiliation_date": "2020-10-31",
+    "status": "activo",
+    "risk_level": "medio",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00421",
+    "merchant_name": "Bembos",
+    "category": "tecnologia",
+    "country": "AR",
+    "affiliation_date": "01/09/2021",
+    "status": "activo",
+    "risk_level": "N/A"
+  },
+  {
+    "merchant_id": "MCH-00422",
+    "merchant_name": "Promart SAC",
+    "category": "moda",
+    "country": "MX",
+    "affiliation_date": "2022-08-15",
+    "status": "suspendido",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00423",
+    "merchant_name": "Pizza Hut SAC",
+    "category": "Supermercado",
+    "country": "AR",
+    "affiliation_date": "2023-05-14",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00424",
+    "merchant_name": "Listo! Sucursal",
+    "category": "restaurante",
+    "country": "COL",
+    "affiliation_date": "2023-04-24",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00425",
+    "merchant_name": "Sky Airline Peru",
+    "category": "moda",
+    "country": "AR",
+    "affiliation_date": "2023-04-09",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00426",
+    "merchant_name": "UPC EIRL",
+    "category": "restaurante",
+    "country": "AR",
+    "affiliation_date": "10/10/2019",
+    "status": "inactivo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00427",
+    "merchant_name": "Hiraoka Sucursal",
+    "category": "retail",
+    "country": "PE",
+    "affiliation_date": "11/02/2023",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00428",
+    "merchant_name": "KFC Peru EIRL",
+    "category": "restaurante",
+    "country": "MX",
+    "affiliation_date": "12/07/2021",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00429",
+    "merchant_name": "UVK Multicines EIRL",
+    "category": "transporte",
+    "country": "MX",
+    "affiliation_date": "11/06/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00430",
+    "merchant_name": "Listo! SA",
+    "category": "FARMACIA",
+    "country": "MX",
+    "affiliation_date": "2018-03-01",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00431",
+    "merchant_name": "UPC",
+    "category": "Tecnologia",
+    "country": "CL",
+    "affiliation_date": "14/02/2021",
+    "status": "INACTIVO",
+    "risk_level": "medio",
+    "source_system": "MANUAL"
+  },
+  {
+    "merchant_id": "MCH-00432",
+    "merchant_name": "Steam",
+    "category": "transporte",
+    "country": "PER",
+    "affiliation_date": "04/01/2023",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00433",
+    "merchant_name": "Clinica San Pablo Peru",
+    "category": "restaurante",
+    "country": "PE",
+    "affiliation_date": "02/03/2021",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00434",
+    "merchant_name": "UVK Multicines EIRL",
+    "category": "salud",
+    "country": "AR",
+    "affiliation_date": "2019-05-14",
+    "status": "activo",
+    "risk_level": "bajo",
+    "legacy_id": "LEG-000434"
+  },
+  {
+    "merchant_id": "MCH-00435",
+    "merchant_name": "Grifos Repsol",
+    "category": "moda",
+    "country": "MX",
+    "affiliation_date": "2018-11-06",
+    "status": "activo",
+    "risk_level": "MEDIO"
+  },
+  {
+    "merchant_id": "MCH-00436",
+    "merchant_name": "Fasa Peru",
+    "category": "transporte",
+    "country": "MX",
+    "affiliation_date": "2018-12-18",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00437",
+    "merchant_name": "Oechsle Peru",
+    "category": "retail",
+    "country": "MX",
+    "affiliation_date": "2018-08-09",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00438",
+    "merchant_name": "Oltursa",
+    "category": "farmacia",
+    "country": "PE",
+    "affiliation_date": "2019-01-08",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00439",
+    "merchant_name": "Fasa EIRL",
+    "category": "educacion",
+    "country": "AR",
+    "affiliation_date": "2019-01-08",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00440",
+    "merchant_name": "Rappi SA",
+    "category": "moda",
+    "country": "PER",
+    "affiliation_date": "2021-12-31",
+    "status": "activo",
+    "risk_level": "bajo "
+  },
+  {
+    "merchant_id": "MCH-00441",
+    "merchant_name": "BCP Pagos Sucursal",
+    "category": "supermercado",
+    "country": "CO",
+    "affiliation_date": "04/03/2022",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00442",
+    "merchant_name": "USIL SAC",
+    "category": "farmacia",
+    "country": "CL",
+    "affiliation_date": "2022-09-18",
+    "status": "Inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00443",
+    "merchant_name": "Oltursa SRL",
+    "category": "supermercado",
+    "country": "MX",
+    "affiliation_date": "2018-03-27",
+    "status": "suspendido",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00444",
+    "merchant_name": "Nike",
+    "category": "RESTAURANTE",
+    "country": "AR",
+    "affiliation_date": "2019-12-07",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00445",
+    "merchant_name": "Latam Airlines SA",
+    "category": "TECNOLOGIA",
+    "country": "MX",
+    "affiliation_date": "2020-10-05",
+    "status": "inactivo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00446",
+    "merchant_name": "inDrive SAC",
+    "category": "Retail",
+    "country": "CO",
+    "affiliation_date": "30/11/2022",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00447",
+    "merchant_name": "Pizza Hut SAC",
+    "category": "retail",
+    "country": "AR",
+    "affiliation_date": "2022-09-03",
+    "status": "active",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00448",
+    "merchant_name": "Saga Falabella",
+    "category": "restaurante",
+    "country": "PE",
+    "affiliation_date": "2020-09-04",
+    "status": "inactivo",
+    "risk_level": "medio",
+    "last_updated_by": "etl_process"
+  },
+  {
+    "merchant_id": "MCH-00449",
+    "merchant_name": "Latam Airlines Sucursal",
+    "category": "salud",
+    "country": "CO",
+    "affiliation_date": "2021-10-14",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00450",
+    "merchant_name": "Fasa Sucursal",
+    "category": "RESTAURANTE",
+    "country": "CL",
+    "affiliation_date": "2021-11-06",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00451",
+    "merchant_name": "Netflix Peru SAC",
+    "category": "transporte",
+    "country": "PE",
+    "affiliation_date": "13/07/2018",
+    "status": "activo",
+    "risk_level": "medio",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00452",
+    "merchant_name": "Sodimac SA",
+    "category": "RETAIL",
+    "country": "AR",
+    "affiliation_date": "2019-08-27",
+    "status": "inactivo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00453",
+    "merchant_name": "H&M SA",
+    "category": "retail",
+    "country": "CO",
+    "affiliation_date": "05/04/2018",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00454",
+    "merchant_name": "Nike EIRL",
+    "category": "RESTAURANTE",
+    "country": "CL",
+    "affiliation_date": "21/08/2019",
+    "status": "suspendido",
+    "risk_level": "bajo "
+  },
+  {
+    "merchant_id": "MCH-00455",
+    "merchant_name": "Ripley EIRL",
+    "category": "retail",
+    "country": "AR",
+    "affiliation_date": "",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00456",
+    "merchant_name": "Clinica Ricardo Palma SAC",
+    "category": "RETAIL",
+    "country": "MX",
+    "affiliation_date": "2019-05-02",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00457",
+    "merchant_name": "Mifarma SA",
+    "category": "transporte",
+    "country": "PE",
+    "affiliation_date": "2019-12-01",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00458",
+    "merchant_name": "Cineplanet Sucursal",
+    "category": "moda",
+    "country": "MX",
+    "affiliation_date": "2020-04-28",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00459",
+    "merchant_name": "Clinica Ricardo Palma EIRL",
+    "category": "restaurante",
+    "country": "CL",
+    "affiliation_date": "2023-03-01",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00460",
+    "merchant_name": "Netflix Peru SRL",
+    "category": "restaurante",
+    "country": "PE",
+    "affiliation_date": "25/10/2018",
+    "status": "activo",
+    "risk_level": null,
+    "last_updated_by": "etl_process"
+  },
+  {
+    "merchant_id": "MCH-00461",
+    "merchant_name": "Uber Peru SA",
+    "category": "retail",
+    "country": "CO",
+    "affiliation_date": "06/09/2020",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00462",
+    "merchant_name": "Cinemark SA",
+    "category": "restaurante",
+    "country": "AR",
+    "affiliation_date": "09/11/2018",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00463",
+    "merchant_name": "PedidosYa SRL",
+    "category": "farmacia",
+    "country": "AR",
+    "affiliation_date": "2021-07-15",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00464",
+    "merchant_name": "Sky Airline SRL",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00465",
+    "merchant_name": "USIL SAC",
+    "category": "farmacia",
+    "country": "MX",
+    "affiliation_date": "19/09/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00466",
+    "merchant_name": "Forever 21",
+    "category": "retail",
+    "country": "CO",
+    "affiliation_date": "11/07/2022",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00467",
+    "merchant_name": "Metro SA",
+    "category": "TECNOLOGIA",
+    "country": "PE",
+    "affiliation_date": "2022-11-28",
+    "status": "inactivo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00468",
+    "merchant_name": "Ripley EIRL",
+    "category": "transporte",
+    "country": "PE",
+    "affiliation_date": "01/12/2020",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00469",
+    "merchant_name": "",
+    "category": "salud",
+    "country": "MX",
+    "affiliation_date": "2019-01-30",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00470",
+    "merchant_name": "Cassinelli SAC",
+    "category": "transporte",
+    "country": "PE",
+    "affiliation_date": "2021-07-13",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00471",
+    "merchant_name": "Rappi Sucursal",
+    "category": "FARMACIA",
+    "country": "PE",
+    "affiliation_date": "04/02/2019",
+    "status": "suspendido",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00472",
+    "merchant_name": "Bembos SA",
+    "category": "educacion",
+    "country": "CO",
+    "affiliation_date": "2022-08-21",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00473",
+    "merchant_name": "Starbucks Peru Sucursal",
+    "category": "transporte",
+    "country": "MX",
+    "affiliation_date": "2022-12-03",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00474",
+    "merchant_name": "Domino's",
+    "category": "restaurante",
+    "country": "MX",
+    "affiliation_date": "2019-02-07",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00475",
+    "merchant_name": "PedidosYa",
+    "category": "Restaurante",
+    "country": "CL",
+    "affiliation_date": "2023-05-11",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00476",
+    "merchant_name": "Latam Airlines",
+    "category": "entretenimiento",
+    "country": "PE",
+    "affiliation_date": "11/05/2018",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00477",
+    "merchant_name": "Spotify SAC",
+    "category": "entretenimiento",
+    "country": "PE",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00478",
+    "merchant_name": "Clinica Ricardo Palma Peru",
+    "category": "supermercado",
+    "country": "COL",
+    "affiliation_date": "2021-04-09",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00479",
+    "merchant_name": "Saga Falabella Peru",
+    "category": "tecnologia",
+    "country": "AR",
+    "affiliation_date": "06/01/2018",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00480",
+    "merchant_name": "Grifos Repsol",
+    "category": "salud",
+    "country": "MX",
+    "affiliation_date": "10/06/2022",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00481",
+    "merchant_name": "Nike Peru",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "2020-01-23",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00482",
+    "merchant_name": "Nike SAC",
+    "category": "Supermercado",
+    "country": "AR",
+    "affiliation_date": "2018-10-15",
+    "status": "inactivo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00483",
+    "merchant_name": "Plaza Vea Sucursal",
+    "category": "restaurante",
+    "country": "PE",
+    "affiliation_date": "02/11/2018",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00484",
+    "merchant_name": "Starbucks Peru Sucursal",
+    "category": "educacion",
+    "country": "Argentina",
+    "affiliation_date": "2019-09-27",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00485",
+    "merchant_name": "Oltursa Sucursal",
+    "category": "Restaurante",
+    "country": "CHI",
+    "affiliation_date": "26/07/2018",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00486",
+    "merchant_name": "Metro",
+    "category": "retail",
+    "country": "CO",
+    "affiliation_date": "06/08/2019",
+    "status": "activo",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00487",
+    "merchant_name": "Grifos Repsol Sucursal",
+    "category": "retail",
+    "country": "CO",
+    "affiliation_date": "08/04/2022",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00488",
+    "merchant_name": "Steam SRL",
+    "category": "moda",
+    "country": "CO",
+    "affiliation_date": "20/10/2019",
+    "status": "suspendido",
+    "risk_level": "medio",
+    "internal_code": "INT-0488"
+  },
+  {
+    "merchant_id": "MCH-00489",
+    "merchant_name": "Epic Games EIRL",
+    "category": "salud",
+    "country": "AR",
+    "affiliation_date": "02/07/2019",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00490",
+    "merchant_name": "Tottus SRL",
+    "category": "farmacia",
+    "country": "MX",
+    "affiliation_date": "2019-02-25",
+    "status": "suspended",
+    "risk_level": null
+  },
+  {
+    "merchant_id": "MCH-00491",
+    "merchant_name": "Adidas Peru",
+    "category": "transporte",
+    "country": "PE",
+    "affiliation_date": "2022-12-18",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00492",
+    "merchant_name": "PUCP EIRL",
+    "category": "salud",
+    "country": "AR",
+    "affiliation_date": "12/02/2020",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00493",
+    "merchant_name": "Sky Airline",
+    "category": "tecnologia",
+    "country": "MX",
+    "affiliation_date": "2020-04-18",
+    "status": "activo",
+    "risk_level": "medio",
+    "legacy_id": "LEG-000493"
+  },
+  {
+    "merchant_id": "MCH-00494",
+    "merchant_name": "Hiraoka SA",
+    "category": "salud",
+    "country": "PE",
+    "affiliation_date": "2020-09-07",
+    "status": "SUSPENDIDO",
+    "risk_level": "bajo",
+    "region": "sur"
+  },
+  {
+    "merchant_id": "MCH-00495",
+    "merchant_name": "Saga Falabella",
+    "category": "farmacia",
+    "country": "PE",
+    "affiliation_date": "",
+    "status": "activo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00496",
+    "merchant_name": "Hiraoka Peru",
+    "category": "Farmacia",
+    "country": "CL",
+    "affiliation_date": "2020-08-02",
+    "status": "activo",
+    "risk_level": null,
+    "legacy_id": "LEG-000496"
+  },
+  {
+    "merchant_id": "MCH-00497",
+    "merchant_name": "Ripley SAC",
+    "category": "Farmacia",
+    "country": "AR",
+    "affiliation_date": "2018-12-24",
+    "status": "activo",
+    "risk_level": "alto"
+  },
+  {
+    "merchant_id": "MCH-00498",
+    "merchant_name": "Promart SRL",
+    "category": "entretenimiento",
+    "country": "AR",
+    "affiliation_date": "2023-01-15",
+    "status": "inactivo",
+    "risk_level": "medio"
+  },
+  {
+    "merchant_id": "MCH-00499",
+    "merchant_name": "Clinica San Pablo",
+    "category": "moda",
+    "country": "AR",
+    "affiliation_date": "21/10/2018",
+    "status": "activo",
+    "risk_level": "bajo"
+  },
+  {
+    "merchant_id": "MCH-00500",
+    "merchant_name": "Tambo+",
+    "category": "moda",
+    "country": "PE",
+    "affiliation_date": "2019-12-28",
+    "status": "suspendido",
+    "risk_level": "medio"
+  }
+]

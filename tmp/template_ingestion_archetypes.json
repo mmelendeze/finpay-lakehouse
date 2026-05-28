@@ -1,0 +1,35 @@
+[
+  {
+    "source_name": "transactions",
+    "source_path": "transactions",
+    "file_format": "csv",
+    "delimiter": ",",
+    "header": true,
+    "multiline": false,
+    "partition_by": "transaction_date",
+    "target_table": "transactions",
+    "active": true
+  },
+  {
+    "source_name": "merchants",
+    "source_path": "merchants",
+    "file_format": "json",
+    "delimiter": null,
+    "header": null,
+    "multiline": true,
+    "partition_by": "affiliation_date",
+    "target_table": "merchants",
+    "active": true
+  },
+  {
+    "source_name": "users",
+    "source_path": "users",
+    "file_format": "text",
+    "delimiter": "|",
+    "header": true,
+    "multiline": false,
+    "partition_by": "registration_date",
+    "target_table": "users",
+    "active": true
+  }
+]

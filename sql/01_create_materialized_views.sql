@@ -1,4 +1,4 @@
-CREATE OR REPLACE MATERIALIZED VIEW {{catalog}}.{{schema_gold}}.dim_merchant AS
+CREATE OR REPLACE MATERIALIZED VIEW fintech_finpay.gold.dim_merchant AS
 SELECT
     merchant_id,
     merchant_name,
@@ -7,9 +7,9 @@ SELECT
     affiliation_status,
     risk_level,
     affiliation_date
-FROM {{catalog}}.{{schema_gold}}.gold_dim_merchant;
+FROM fintech_finpay.gold.dim_merchant_vm;
 
-CREATE OR REPLACE MATERIALIZED VIEW {{catalog}}.{{schema_gold}}.dim_user AS
+CREATE OR REPLACE MATERIALIZED VIEW fintech_finpay.gold.dim_user AS
 SELECT
     user_id,
     full_name_masked,
@@ -20,16 +20,16 @@ SELECT
     risk_segment,
     preferred_channel,
     registration_date
-FROM {{catalog}}.{{schema_gold}}.gold_dim_user;
+FROM fintech_finpay.gold.dim_user_vm;
 
-CREATE OR REPLACE MATERIALIZED VIEW {{catalog}}.{{schema_gold}}.dim_channel AS
+CREATE OR REPLACE MATERIALIZED VIEW fintech_finpay.gold.dim_channel AS
 SELECT
     channel_id,
     channel_name,
     channel_description
-FROM {{catalog}}.{{schema_gold}}.gold_dim_channel;
+FROM fintech_finpay.gold.dim_channel_vm;
 
-CREATE OR REPLACE MATERIALIZED VIEW {{catalog}}.{{schema_gold}}.dim_date AS
+CREATE OR REPLACE MATERIALIZED VIEW fintech_finpay.gold.dim_date AS
 SELECT
     date_id,
     calendar_date,
@@ -41,9 +41,9 @@ SELECT
     month_name,
     quarter_number,
     year_number
-FROM {{catalog}}.{{schema_gold}}.gold_dim_date;
+FROM fintech_finpay.gold.dim_date_vm;
 
-CREATE OR REPLACE MATERIALIZED VIEW {{catalog}}.{{schema_gold}}.fact_transactions AS
+CREATE OR REPLACE MATERIALIZED VIEW fintech_finpay.gold.fact_transactions AS
 SELECT
     CAST(date_format(f.transaction_date, 'yyyyMMdd') AS INT) AS date_id,
 
@@ -155,7 +155,7 @@ SELECT
         ELSE false
     END AS anomaly_flag
 
-FROM {{catalog}}.{{schema_gold}}.gold_fact_transactions f
+FROM fintech_finpay.gold.fact_transactions_vm f
 
-LEFT JOIN {{catalog}}.{{schema_gold}}.gold_dim_merchant m
+LEFT JOIN fintech_finpay.gold.dim_merchant_vm m
     ON f.merchant_id = m.merchant_id;
