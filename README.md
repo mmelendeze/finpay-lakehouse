@@ -342,8 +342,24 @@ incluye consultas para:
 * Observabilidad centralizada.
 
 ---
+# 11. Pasos a seguir
+* (1) En Produccio ingresar a la plataforma y crear el catalogo que se ba a usar (fintech_finpay).
+* (2) Ejecutar en la consola de Visual Studio los comandos para validar y deployar.
+    •	databricks bundle validate -t prod
+    •	databricks bundle deploy -t prod
+* (3) En  produccion ejecutar el notebook de inicializacion(00_setup.ipynb).
+* (4) Ejecutar en la consola de Visual Studio ejecutar el comando para ejecutar el job de ingesta.  
+    •	databricks bundle run finpay_ingestion_job -t prod
+* (5) En  produccion ejecutar la query que crea las vistas materializadas (01_create_materialized_views.sql).
+* (6) Ejecutar en la consola de Visual Studio ejecutar el comando para ejecutar el job de refresco de vistas.  
+    •	databricks bundle run finpay_semantic_job -t prod
+* (7) Para genera roles y permisos debe usar databricks de alguna nube y seguir los siguientes pasos
+    •	Debe generar en la paltaforma los roles necesarios 
+    •	Debe en produccion ejecutar el notebook de genración de permisos y enmascaramiento(04_Asig_Role.ipynb).
 
-# 11. Autor
+
+---
+# 12. Autor
 
 Marco Melendez
 
