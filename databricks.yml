@@ -38,15 +38,17 @@ targets:
   prod:
     mode: production
     workspace:
-      host: https://dbc-35f7e007-14f2.cloud.databricks.com
+      host: https://dbc-8943e941-92f0.cloud.databricks.com/
       # We explicitly deploy to /Workspace/Users/mmelende@hotmail.com to make sure we only have a single copy.
-      root_path: /Workspace/Users/mmelende@hotmail.com/.bundle/${bundle.name}/${bundle.target}
+      root_path: /Workspace/Users/mmelende@gmail.com/.bundle/${bundle.name}/${bundle.target}
+    run_as:
+      user_name: mmelende@gmail.com
     variables:
       catalog: fintech_finpay
       schema: bronze
       schema_event_log: observability
       schema_gold: gold
-      sql_warehouse_id: 7fb6e91c39c8a816
+      sql_warehouse_id: bdbcfdfd72f4d0a1
     permissions:
-      - user_name: mmelende@hotmail.com
+      - user_name: mmelende@gmail.com
         level: CAN_MANAGE
