@@ -1,0 +1,7 @@
+Repositorio
+        Clonar https://github.com/mmelendeze/finpay-lakehouse.git
+
+Pasos y evidencia
+	Documento de evidencias se entrega pero también esta respaldado en GIT Bundle_20260525\tmp
+	Al final del documento se da detalle y evidencia de lo que no se pudo realizar por limites del Databricks Free Edition.
+	Entre la version entregada el jueves y hoy sólo se modifico el tablero y se entrego un sql de cuadratura 
